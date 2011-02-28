@@ -1,0 +1,43 @@
+/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m:10:29: error: ZombieWorldScene.h: No such file or directory
+/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m:20: warning: cannot find interface declaration for 'ZombieWorld'
+/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m: In function '+[ZombieWorld scene]':
+/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m:26: warning: 'ZombieWorld' may not respond to '+alloc'
+/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m:26: warning: (Messages without a matching method signature
+/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m:26: warning: will be assumed to return 'id' and accept
+/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m:26: warning: '...' as arguments.)
+/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m:26: warning: no '-initWithLevel:andNumPlayers:' method found
+/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m:29: warning: incompatible Objective-C types 'struct ZombieWorld *', expected 'struct CCNode *' when passing argument 1 of 'addChild:' from distinct Objective-C type
+/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m: At top level:
+/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m:38: error: expected '{' before '-' token
+/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m: In function '-[ZombieWorld initWithLevel:andNumPlayers:]':
+/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m:42: error: no super class declared in @interface for 'ZombieWorld'
+/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m:44: warning: 'ZombieWorld' may not respond to '-parseLevel:'
+/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m:46: error: 'mMaxPlayers' undeclared (first use in this function)
+/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m:46: error: (Each undeclared identifier is reported only once
+/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m:46: error: for each function it appears in.)
+/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m:51: error: 'mBoard' undeclared (first use in this function)
+/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m:54: error: 'mPlayers' undeclared (first use in this function)
+/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m:55: error: expected ';' before ')' token
+/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m:57: warning: 'ZombieWorld' may not respond to '-getPlayerSpawnPoint:'
+/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m:57: error: invalid initializer
+/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m:58: error: 'mPlayer' undeclared (first use in this function)
+/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m: In function '-[ZombieWorld dealloc]':
+/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m:75: error: 'mBoard' undeclared (first use in this function)
+/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m:77: error: 'mPlayer' undeclared (first use in this function)
+/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m:79: error: 'mZombies' undeclared (first use in this function)
+/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m:81: error: 'mPlayerSpawnPoints' undeclared (first use in this function)
+/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m:84: error: no super class declared in @interface for 'ZombieWorld'
+/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m: In function '-[ZombieWorld parseLevel:]':
+/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m:90: error: 'resource' undeclared (first use in this function)
+/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m:94: error: 'mNumZombiesInitial' undeclared (first use in this function)
+/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m:95: error: 'mNumZombiesPerTurn' undeclared (first use in this function)
+/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m:96: error: 'mNumZombiesMaxPerPlayer' undeclared (first use in this function)
+/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m:97: error: 'mMaxPlayers' undeclared (first use in this function)
+/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m:99: error: 'mPlayerSpawnPoints' undeclared (first use in this function)
+/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m:100: error: expected ';' before 'NSArray'
+/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m:102: error: 'spawn_array' undeclared (first use in this function)
+/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m:111: error: 'mDimensions' undeclared (first use in this function)
+/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m:112: error: 'mSizeOfPlayTile' undeclared (first use in this function)
+/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m:113: error: 'mOffsetToFirstTile' undeclared (first use in this function)
+/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m:118: error: incompatible type for argument 1 of 'initWithObjects:'
+/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m:120: warning: control reaches end of non-void function

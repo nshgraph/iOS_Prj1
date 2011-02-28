@@ -1,0 +1,1673 @@
+TZombies
+v7
+r0
+t320301640.318092
+cCheck dependencies
+cProcessInfoPlistFile /Users/nathanholmberg/Projects/iPhone/Zombies/build/Debug-iphonesimulator/Zombies.app/Info.plist Resources/Info.plist
+cCpResource build/Debug-iphonesimulator/Zombies.app/Default.png Resources/Default.png
+cCpResource build/Debug-iphonesimulator/Zombies.app/fps_images.png Resources/fps_images.png
+cCpResource build/Debug-iphonesimulator/Zombies.app/Icon.png Resources/Icon.png
+cCpResource build/Debug-iphonesimulator/Zombies.app/Icon@2x.png Resources/Icon@2x.png
+cCpResource build/Debug-iphonesimulator/Zombies.app/Icon-Small@2x.png Resources/Icon-Small@2x.png
+cCpResource build/Debug-iphonesimulator/Zombies.app/Icon-Small.png Resources/Icon-Small.png
+cCpResource build/Debug-iphonesimulator/Zombies.app/Icon-Small-50.png Resources/Icon-Small-50.png
+cCpResource build/Debug-iphonesimulator/Zombies.app/Icon-72.png Resources/Icon-72.png
+cCpResource build/Debug-iphonesimulator/Zombies.app/iTunesArtwork Resources/iTunesArtwork
+cCpResource build/Debug-iphonesimulator/Zombies.app/Player1.png Resources/Actors/Player1.png
+cCpResource build/Debug-iphonesimulator/Zombies.app/Player2.png Resources/Actors/Player2.png
+cCpResource build/Debug-iphonesimulator/Zombies.app/Zombie.png Resources/Actors/Zombie.png
+cCpResource build/Debug-iphonesimulator/Zombies.app/Base-1Screen.png Resources/Boards/Base-1Screen.png
+cCopyPlistFile /Users/nathanholmberg/Projects/iPhone/Zombies/build/Debug-iphonesimulator/Zombies.app/Base-1Screen.plist Resources/Boards/Base-1Screen.plist
+cProcessPCH /var/folders/YG/YGw209t2FCiunLzYZ4FXG++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Zombies_Prefix-dsekzkclifwxtcdbdbikczxrzyaz/Zombies_Prefix.pch.gch Zombies_Prefix.pch normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/Zombies.build/Debug-iphonesimulator/Zombies.build/Objects-normal/i386/main.o /Users/nathanholmberg/Projects/iPhone/Zombies/main.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/Zombies.build/Debug-iphonesimulator/Zombies.build/Objects-normal/i386/ZombiesAppDelegate.o /Users/nathanholmberg/Projects/iPhone/Zombies/Classes/ZombiesAppDelegate.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/Zombies.build/Debug-iphonesimulator/Zombies.build/Objects-normal/i386/ZombieWorldScene.o /Users/nathanholmberg/Projects/iPhone/Zombies/Classes/ZombieWorldScene.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/Zombies.build/Debug-iphonesimulator/Zombies.build/Objects-normal/i386/RootViewController.o /Users/nathanholmberg/Projects/iPhone/Zombies/Classes/RootViewController.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/Zombies.build/Debug-iphonesimulator/Zombies.build/Objects-normal/i386/Actor.o /Users/nathanholmberg/Projects/iPhone/Zombies/Classes/Actor.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/Zombies.build/Debug-iphonesimulator/Zombies.build/Objects-normal/i386/Actor_Player.o /Users/nathanholmberg/Projects/iPhone/Zombies/Classes/Actor_Player.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/Zombies.build/Debug-iphonesimulator/Zombies.build/Objects-normal/i386/Board.o /Users/nathanholmberg/Projects/iPhone/Zombies/Classes/Board.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/Zombies.build/Debug-iphonesimulator/Zombies.build/Objects-normal/i386/Actor_Zombie.o /Users/nathanholmberg/Projects/iPhone/Zombies/Classes/Actor_Zombie.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/Zombies.build/Debug-iphonesimulator/Zombies.build/Objects-normal/i386/ZombieCollective.o /Users/nathanholmberg/Projects/iPhone/Zombies/Classes/ZombieCollective.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/Zombies.build/Debug-iphonesimulator/Zombies.build/Objects-normal/i386/ZombieUtils.o /Users/nathanholmberg/Projects/iPhone/Zombies/Classes/ZombieUtils.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cLd /Users/nathanholmberg/Projects/iPhone/Zombies/build/Debug-iphonesimulator/Zombies.app/Zombies normal i386
+cGenerateDSYMFile /Users/nathanholmberg/Projects/iPhone/Zombies/build/Debug-iphonesimulator/Zombies.app.dSYM /Users/nathanholmberg/Projects/iPhone/Zombies/build/Debug-iphonesimulator/Zombies.app/Zombies
+cTouch /Users/nathanholmberg/Projects/iPhone/Zombies/build/Debug-iphonesimulator/Zombies.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CC128950000000000000110
+t1287727253
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c000000004CC1288A00000000000F34A0
+t1287727242
+s996512
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004CC1224600000000001EA9C0
+t1287725638
+s2009536
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGGeometry.h
+c000000004CC121DB00000000000022F0
+t1287725531
+s8944
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGImage.h
+c000000004CC121DB0000000000002650
+t1287725531
+s9808
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/OpenAL.framework/OpenAL
+c000000004CC1226400000000000246A0
+t1287725668
+s149152
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/EAGL.h
+c000000004CC12308000000000000094F
+t1287725832
+s2383
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/EAGLDrawable.h
+c000000004CC123080000000000000A61
+t1287725832
+s2657
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/gl.h
+c000000004CC123080000000000009369
+t1287725832
+s37737
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/glext.h
+c000000004CC123080000000000003C4A
+t1287725832
+s15434
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+c000000004CC1230E0000000000019D40
+t1287725838
+s105792
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004CC1233C00000000000000C4
+t1287725884
+s196
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004CC12431000000000015CDB0
+t1287726129
+s1428912
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/Availability.h
+c000000004CB3FA080000000000001ADD
+t1286863368
+s6877
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/inttypes.h
+c000000004CB3E48600000000000027D1
+t1286857862
+s10193
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/math.h
+c000000004A5C14A000000000000004F1
+t1247548576
+s1265
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/objc/objc.h
+c000000004CB935700000000000000A2F
+t1287206256
+s2607
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/stddef.h
+c000000004CB3E4860000000000001404
+t1286857862
+s5124
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/stdlib.h
+c000000004CB3E4860000000000002DF5
+t1286857862
+s11765
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/string.h
+c000000004CB3E4860000000000001731
+t1286857862
+s5937
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/sys/time.h
+c000000004CBFACAC0000000000001E17
+t1287629996
+s7703
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/lib/libz.dylib
+c000000004CC109C300000000000123B0
+t1287719363
+s74672
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/Actor.h
+c000000004D6724CD0000000000000273
+t1298605261
+s627
+i<Foundation/Foundation.h>
+i"cocos2d.h"
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/Actor.m
+c000000004D67286100000000000009DD
+t1298606177
+s2525
+i"Actor.h"
+i"Board.h"
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/Actor_Player.h
+c000000004D6724CD0000000000000179
+t1298605261
+s377
+i<Foundation/Foundation.h>
+i"Actor.h"
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/Actor_Player.m
+c000000004D6724CD0000000000000B2A
+t1298605261
+s2858
+i"Actor_Player.h"
+i"Board.h"
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/Actor_Zombie.h
+c000000004D6724CD000000000000016E
+t1298605261
+s366
+i<Foundation/Foundation.h>
+i"Actor.h"
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/Actor_Zombie.m
+c000000004D6724CD000000000000014A
+t1298605261
+s330
+i"Actor_Zombie.h"
+i"Board.h"
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/Board.h
+c000000004D6732C70000000000000240
+t1298608839
+s576
+i<Foundation/Foundation.h>
+i"cocos2d.h"
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/Board.m
+c000000004D6732C7000000000000073C
+t1298608839
+s1852
+i"Board.h"
+i"ZombieUtils.h"
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/GameConfig.h
+c000000004D65BF9F0000000000000224
+t1298513823
+s548
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.h
+c000000004D6724CD00000000000002AF
+t1298605261
+s687
+i"cocos2d.h"
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m
+c000000004D6724CD0000000000000CE8
+t1298605261
+s3304
+i"ZombieWorldScene.h"
+i"Actor_Player.h"
+i"Board.h"
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/RootViewController.h
+c000000004D65BF9F00000000000000EC
+t1298513823
+s236
+i<UIKit/UIKit.h>
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/RootViewController.m
+c000000004D65BF9F0000000000001140
+t1298513823
+s4416
+i"cocos2d.h"
+i"RootViewController.h"
+i"GameConfig.h"
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/ZombieCollective.h
+c000000004D6731BF0000000000000239
+t1298608575
+s569
+i<Foundation/Foundation.h>
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/ZombieCollective.m
+c000000004D6731BA00000000000009AE
+t1298608570
+s2478
+i"ZombieCollective.h"
+i"cocos2d.h"
+i"ZombieUtils.h"
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/ZombieUtils.h
+c000000004D6724CD0000000000000119
+t1298605261
+s281
+i<Foundation/Foundation.h>
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/ZombieUtils.m
+c000000004D6724D300000000000002A4
+t1298605267
+s676
+i"ZombieUtils.h"
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/ZombieWorldScene.h
+c000000004D672D19000000000000024B
+t1298607385
+s587
+i"cocos2d.h"
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/ZombieWorldScene.m
+c000000004D6731FC0000000000000B48
+t1298608636
+s2888
+i"ZombieWorldScene.h"
+i"ZombieUtils.h"
+i"Actor_Player.h"
+i"Board.h"
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/ZombiesAppDelegate.h
+c000000004D65BF9F0000000000000181
+t1298513823
+s385
+i<UIKit/UIKit.h>
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/ZombiesAppDelegate.m
+c000000004D672543000000000000118D
+t1298605379
+s4493
+i"cocos2d.h"
+i"ZombiesAppDelegate.h"
+i"GameConfig.h"
+i"ZombieWorldScene.h"
+i"RootViewController.h"
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/Resources/Actors/Player1.png
+c000000004D65C7B60000000000013388
+t1298515894
+s78728
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/Resources/Actors/Player2.png
+c000000004D65C7C100000000000129F9
+t1298515905
+s76281
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/Resources/Actors/Zombie.png
+c000000004D65C7CA0000000000011BFE
+t1298515914
+s72702
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/Resources/Boards/Base-1Screen.plist
+c000000004D672B6A0000000000000452
+t1298606954
+s1106
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/Resources/Boards/Base-1Screen.png
+c000000004D661044000000000000DB65
+t1298534468
+s56165
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/Resources/Default.png
+c000000004D65BF9F00000000000077AB
+t1298513823
+s30635
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/Resources/Icon-72.png
+c000000004D65BF9F0000000000002C96
+t1298513823
+s11414
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/Resources/Icon-Small-50.png
+c000000004D65BF9F0000000000001F2B
+t1298513823
+s7979
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/Resources/Icon-Small.png
+c000000004D65BF9F000000000000135C
+t1298513823
+s4956
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/Resources/Icon-Small@2x.png
+c000000004D65BF9F00000000000024F9
+t1298513823
+s9465
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/Resources/Icon.png
+c000000004D65BF9F000000000000246F
+t1298513823
+s9327
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/Resources/Icon@2x.png
+c000000004D65BF9F0000000000005375
+t1298513823
+s21365
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/Resources/Player1.png
+c000000004D65C2C400000000000128FF
+t1298514628
+s76031
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/Resources/Player2.png
+c000000004D65C2E00000000000012C11
+t1298514656
+s76817
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/Resources/Zombie.png
+c000000004D65C28D0000000000012608
+t1298514573
+s75272
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/Resources/fps_images.png
+c000000004D65BF9F000000000000183B
+t1298513823
+s6203
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/Resources/iTunesArtwork
+c000000004D65BF9F000000000000F21E
+t1298513823
+s61982
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/Zombies_Prefix.pch
+c000000004D65BF9F00000000000000B1
+t1298513823
+s177
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/build/Debug-iphonesimulator/Zombies.app
+t1298608840
+s646
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/build/Debug-iphonesimulator/Zombies.app.dSYM
+t1298608840
+s102
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/build/Debug-iphonesimulator/Zombies.app/Base-1Screen.plist
+t1298606954
+s456
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/build/Debug-iphonesimulator/Zombies.app/Base-1Screen.png
+t1298579611
+s56165
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/build/Debug-iphonesimulator/Zombies.app/Default.png
+t1298513836
+s30635
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/build/Debug-iphonesimulator/Zombies.app/Icon-72.png
+t1298513836
+s11414
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/build/Debug-iphonesimulator/Zombies.app/Icon-Small-50.png
+t1298513836
+s7979
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/build/Debug-iphonesimulator/Zombies.app/Icon-Small.png
+t1298513836
+s4956
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/build/Debug-iphonesimulator/Zombies.app/Icon-Small@2x.png
+t1298513836
+s9465
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/build/Debug-iphonesimulator/Zombies.app/Icon.png
+t1298513836
+s9327
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/build/Debug-iphonesimulator/Zombies.app/Icon@2x.png
+t1298513836
+s21365
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/build/Debug-iphonesimulator/Zombies.app/Info.plist
+t1298513836
+s820
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/build/Debug-iphonesimulator/Zombies.app/PkgInfo
+t1298513836
+s8
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/build/Debug-iphonesimulator/Zombies.app/Player1.png
+t1298515977
+s78728
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/build/Debug-iphonesimulator/Zombies.app/Player2.png
+t1298515977
+s76281
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/build/Debug-iphonesimulator/Zombies.app/Zombie.png
+t1298515977
+s72702
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/build/Debug-iphonesimulator/Zombies.app/Zombies
+t1298608840
+s1676140
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/build/Debug-iphonesimulator/Zombies.app/fps_images.png
+t1298513836
+s6203
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/build/Debug-iphonesimulator/Zombies.app/iTunesArtwork
+t1298513836
+s61982
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/build/Debug-iphonesimulator/libcocos2d libraries.a
+c000000004D65BFAC00000000003C7AE0
+t1298513836
+s3963616
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/build/Zombies.build/Debug-iphonesimulator/Zombies.build/Objects-normal/i386/Actor.o
+t1298608839
+s20568
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/build/Zombies.build/Debug-iphonesimulator/Zombies.build/Objects-normal/i386/Actor_Player.o
+t1298608839
+s52924
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/build/Zombies.build/Debug-iphonesimulator/Zombies.build/Objects-normal/i386/Actor_Zombie.o
+t1298608839
+s10856
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/build/Zombies.build/Debug-iphonesimulator/Zombies.build/Objects-normal/i386/Board.o
+t1298608839
+s17956
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/build/Zombies.build/Debug-iphonesimulator/Zombies.build/Objects-normal/i386/HelloWorldScene.o
+t2
+s0
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/build/Zombies.build/Debug-iphonesimulator/Zombies.build/Objects-normal/i386/RootViewController.o
+t1298513837
+s43360
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/build/Zombies.build/Debug-iphonesimulator/Zombies.build/Objects-normal/i386/ZombieCollective.o
+t1298608575
+s14120
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/build/Zombies.build/Debug-iphonesimulator/Zombies.build/Objects-normal/i386/ZombieUtils.o
+t1298605267
+s5676
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/build/Zombies.build/Debug-iphonesimulator/Zombies.build/Objects-normal/i386/ZombieWorldScene.o
+t1298608839
+s19316
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/build/Zombies.build/Debug-iphonesimulator/Zombies.build/Objects-normal/i386/Zombies.LinkFileList
+c000000004D6724F50000000000000557
+t1298605301
+s1367
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/build/Zombies.build/Debug-iphonesimulator/Zombies.build/Objects-normal/i386/ZombiesAppDelegate.o
+t1298607385
+s59236
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/build/Zombies.build/Debug-iphonesimulator/Zombies.build/Objects-normal/i386/main.o
+t1298513837
+s3220
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/libs/cocos2d/CCAction.h
+c000000004D65BF9F000000000000167A
+t1298513823
+s5754
+i<sys/time.h>
+i<Foundation/Foundation.h>
+i"ccTypes.h"
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/libs/cocos2d/CCActionCamera.h
+c000000004D65BF9F00000000000009BC
+t1298513823
+s2492
+i"CCActionInterval.h"
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/libs/cocos2d/CCActionEase.h
+c000000004D65BF9F0000000000001671
+t1298513823
+s5745
+i"CCActionInterval.h"
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/libs/cocos2d/CCActionGrid.h
+c000000004D65BF9F000000000000148B
+t1298513823
+s5259
+i"CCActionInterval.h"
+i"CCActionInstant.h"
+i"CCGrid.h"
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/libs/cocos2d/CCActionGrid3D.h
+c000000004D65BF9F0000000000001A8A
+t1298513823
+s6794
+i"CCActionGrid.h"
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/libs/cocos2d/CCActionInstant.h
+c000000004D65BF9F00000000000013AA
+t1298513823
+s5034
+i"CCAction.h"
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/libs/cocos2d/CCActionInterval.h
+c000000004D65BF9F0000000000003265
+t1298513823
+s12901
+i"CCNode.h"
+i"CCAction.h"
+i"CCProtocols.h"
+i<sys/time.h>
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/libs/cocos2d/CCActionManager.h
+c000000004D65BF9F0000000000001071
+t1298513823
+s4209
+i"CCAction.h"
+i"Support/ccCArray.h"
+i"Support/uthash.h"
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/libs/cocos2d/CCActionPageTurn3D.h
+c000000004D65BF9F0000000000000644
+t1298513823
+s1604
+i"CCActionGrid3D.h"
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/libs/cocos2d/CCActionProgressTimer.h
+c000000004D65BF9F000000000000088D
+t1298513823
+s2189
+i<Foundation/Foundation.h>
+i"CCProgressTimer.h"
+i"CCActionInterval.h"
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/libs/cocos2d/CCActionTiledGrid.h
+c000000004D65BF9F0000000000001A15
+t1298513823
+s6677
+i"CCActionGrid.h"
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/libs/cocos2d/CCActionTween.h
+c000000004D65BF9F0000000000000931
+t1298513823
+s2353
+i<Foundation/Foundation.h>
+i"CCActionInterval.h"
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/libs/cocos2d/CCAnimation.h
+c000000004D65BF9F000000000000126D
+t1298513823
+s4717
+i<Foundation/Foundation.h>
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/libs/cocos2d/CCAnimationCache.h
+c000000004D65BF9F00000000000008DD
+t1298513823
+s2269
+i<Foundation/Foundation.h>
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/libs/cocos2d/CCAtlasNode.h
+c000000004D65BF9F0000000000000C06
+t1298513823
+s3078
+i"CCTextureAtlas.h"
+i"CCNode.h"
+i"CCProtocols.h"
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/libs/cocos2d/CCBlockSupport.h
+c000000004D65BF9F000000000000066F
+t1298513823
+s1647
+i<Foundation/Foundation.h>
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/libs/cocos2d/CCCamera.h
+c000000004D65BF9F0000000000000C84
+t1298513823
+s3204
+i"CCNode.h"
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/libs/cocos2d/CCCompatibility.h
+c000000004D65BF9F0000000000003891
+t1298513823
+s14481
+i<Foundation/Foundation.h>
+i"cocos2d.h"
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/libs/cocos2d/CCConfiguration.h
+c000000004D65BF9F0000000000000D36
+t1298513823
+s3382
+i<Foundation/Foundation.h>
+i"Platforms/CCGL.h"
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/libs/cocos2d/CCDirector.h
+c000000004D65BF9F00000000000025C4
+t1298513823
+s9668
+i"ccConfig.h"
+i"ccTypes.h"
+i"Platforms/CCGL.h"
+i"CCProtocols.h"
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/libs/cocos2d/CCDrawingPrimitives.h
+c000000004D65BF9F0000000000000C32
+t1298513823
+s3122
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<CoreGraphics/CGGeometry.h>
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/libs/cocos2d/CCGrabber.h
+c000000004D65BF9F00000000000005E4
+t1298513823
+s1508
+i"Platforms/CCGL.h"
+i<Foundation/Foundation.h>
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/libs/cocos2d/CCGrid.h
+c000000004D65BF9F0000000000000E5A
+t1298513823
+s3674
+i<Foundation/Foundation.h>
+i"CCNode.h"
+i"CCCamera.h"
+i"ccTypes.h"
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/libs/cocos2d/CCLabelAtlas.h
+c000000004D65BF9F0000000000000B24
+t1298513823
+s2852
+i"CCAtlasNode.h"
+i"CCTextureAtlas.h"
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/libs/cocos2d/CCLabelBMFont.h
+c000000004D65BF9F0000000000001641
+t1298513823
+s5697
+i"CCSpriteBatchNode.h"
+i"Support/uthash.h"
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/libs/cocos2d/CCLabelTTF.h
+c000000004D65BF9F0000000000000A87
+t1298513823
+s2695
+i"CCTexture2D.h"
+i"CCSprite.h"
+i"Platforms/CCNS.h"
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/libs/cocos2d/CCLayer.h
+c000000004D65BF9F00000000000020E9
+t1298513823
+s8425
+i<Availability.h>
+i<UIKit/UIKit.h>
+i"Platforms/iOS/CCTouchDelegateProtocol.h"
+i"Platforms/Mac/CCEventDispatcher.h"
+i"CCProtocols.h"
+i"CCNode.h"
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/libs/cocos2d/CCMenu.h
+c000000004D65BF9F0000000000000B29
+t1298513823
+s2857
+i"CCMenuItem.h"
+i"CCLayer.h"
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/libs/cocos2d/CCMenuItem.h
+c000000004D65BF9F00000000000033A8
+t1298513823
+s13224
+i"CCBlockSupport.h"
+i"CCNode.h"
+i"CCProtocols.h"
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/libs/cocos2d/CCMotionStreak.h
+c000000004D65BF9F0000000000000B2A
+t1298513823
+s2858
+i<Foundation/Foundation.h>
+i"CCNode.h"
+i"CCRibbon.h"
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/libs/cocos2d/CCNode.h
+c000000004D65BF9F0000000000004485
+t1298513823
+s17541
+i<Availability.h>
+i"Platforms/CCGL.h"
+i"CCAction.h"
+i"ccTypes.h"
+i"CCTexture2D.h"
+i"CCProtocols.h"
+i"ccConfig.h"
+i"Support/CCArray.h"
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/libs/cocos2d/CCParallaxNode.h
+c000000004D65BF9F000000000000075D
+t1298513823
+s1885
+i"CCNode.h"
+i"Support/ccCArray.h"
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/libs/cocos2d/CCParticleExamples.h
+c000000004D65BF9F0000000000000AD0
+t1298513823
+s2768
+i<Availability.h>
+i"CCParticleSystemPoint.h"
+i"CCParticleSystemQuad.h"
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/libs/cocos2d/CCParticleSystem.h
+c000000004D65BF9F00000000000037B8
+t1298513823
+s14264
+i"CCProtocols.h"
+i"CCNode.h"
+i"ccTypes.h"
+i"ccConfig.h"
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/libs/cocos2d/CCParticleSystemPoint.h
+c000000004D65BF9F0000000000000846
+t1298513823
+s2118
+i<Availability.h>
+i"CCParticleSystem.h"
+i"CCParticleSystemQuad.h"
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/libs/cocos2d/CCParticleSystemQuad.h
+c000000004D65BF9F00000000000009F8
+t1298513823
+s2552
+i"CCParticleSystem.h"
+i"ccConfig.h"
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/libs/cocos2d/CCProgressTimer.h
+c000000004D65BF9F0000000000000B48
+t1298513823
+s2888
+i<Foundation/Foundation.h>
+i"CCSprite.h"
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/libs/cocos2d/CCProtocols.h
+c000000004D65BF9F0000000000000F9A
+t1298513823
+s3994
+i"ccTypes.h"
+i"CCTexture2D.h"
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/libs/cocos2d/CCRenderTexture.h
+c000000004D65BF9F0000000000000F2A
+t1298513823
+s3882
+i<Foundation/Foundation.h>
+i"CCNode.h"
+i"CCSprite.h"
+i"Support/OpenGL_Internal.h"
+i<Availability.h>
+i<UIKit/UIKit.h>
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/libs/cocos2d/CCRibbon.h
+c000000004D65BF9F0000000000000FCD
+t1298513823
+s4045
+i"CCNode.h"
+i"CCTexture2D.h"
+i"CCProtocols.h"
+i"Platforms/CCGL.h"
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/libs/cocos2d/CCScene.h
+c000000004D65BF9F0000000000000676
+t1298513823
+s1654
+i"CCNode.h"
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/libs/cocos2d/CCScheduler.h
+c000000004D65BF9F00000000000019D7
+t1298513823
+s6615
+i"Support/uthash.h"
+i"ccTypes.h"
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/libs/cocos2d/CCSprite.h
+c000000004D65BF9F000000000000345C
+t1298513823
+s13404
+i"CCNode.h"
+i"CCProtocols.h"
+i"CCTextureAtlas.h"
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/libs/cocos2d/CCSpriteBatchNode.h
+c000000004D65BF9F00000000000018F8
+t1298513823
+s6392
+i"CCNode.h"
+i"CCProtocols.h"
+i"CCTextureAtlas.h"
+i"ccMacros.h"
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/libs/cocos2d/CCSpriteFrame.h
+c000000004D65BF9F0000000000000D5A
+t1298513823
+s3418
+i<Foundation/Foundation.h>
+i"CCNode.h"
+i"CCProtocols.h"
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/libs/cocos2d/CCSpriteFrameCache.h
+c000000004D65BF9F0000000000001394
+t1298513823
+s5012
+i<Foundation/Foundation.h>
+i"CCSpriteFrame.h"
+i"CCTexture2D.h"
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/libs/cocos2d/CCSpriteSheet.h
+c000000004D65BF9F00000000000009FE
+t1298513823
+s2558
+i"CCSpriteBatchNode.h"
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/libs/cocos2d/CCTMXLayer.h
+c000000004D65BF9F000000000000182A
+t1298513823
+s6186
+i"CCAtlasNode.h"
+i"CCSpriteBatchNode.h"
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/libs/cocos2d/CCTMXObjectGroup.h
+c000000004D65BF9F00000000000008D5
+t1298513823
+s2261
+i"CCSpriteSheet.h"
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/libs/cocos2d/CCTMXTiledMap.h
+c000000004D65BF9F00000000000014D4
+t1298513823
+s5332
+i"CCSpriteSheet.h"
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/libs/cocos2d/CCTMXXMLParser.h
+c000000004D65BF9F00000000000016B9
+t1298513823
+s5817
+i<Availability.h>
+i<Foundation/Foundation.h>
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/libs/cocos2d/CCTexture2D.h
+c000000004D65BF9F0000000000002C9A
+t1298513823
+s11418
+i<Availability.h>
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+i"Platforms/CCGL.h"
+i"Platforms/CCNS.h"
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/libs/cocos2d/CCTextureAtlas.h
+c000000004D65BF9F000000000000145B
+t1298513823
+s5211
+i"CCTexture2D.h"
+i"ccTypes.h"
+i"ccConfig.h"
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/libs/cocos2d/CCTextureCache.h
+c000000004D65BF9F00000000000014C2
+t1298513823
+s5314
+i<Availability.h>
+i<CoreGraphics/CGImage.h>
+i<Foundation/Foundation.h>
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/libs/cocos2d/CCTexturePVR.h
+c000000004D65BF9F0000000000000FB9
+t1298513823
+s4025
+i<Foundation/Foundation.h>
+i"Platforms/CCGL.h"
+i"CCTextureCache.h"
+i"CCTexture2D.h"
+i"ccCArray.h"
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/libs/cocos2d/CCTileMapAtlas.h
+c000000004D65BF9F0000000000000B86
+t1298513823
+s2950
+i"CCTextureAtlas.h"
+i"CCAtlasNode.h"
+i"Support/TGAlib.h"
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/libs/cocos2d/CCTransition.h
+c000000004D65BF9F0000000000002134
+t1298513823
+s8500
+i"CCScene.h"
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/libs/cocos2d/CCTransitionPageTurn.h
+c000000004D65BF9F0000000000000917
+t1298513823
+s2327
+i"CCTransition.h"
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/libs/cocos2d/CCTransitionRadial.h
+c000000004D65BF9F0000000000000630
+t1298513823
+s1584
+i"CCTransition.h"
+i"CCProgressTimer.h"
+i"CCActionProgressTimer.h"
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/libs/cocos2d/Platforms/CCGL.h
+c000000004D65BF9F0000000000000BF8
+t1298513823
+s3064
+i<Availability.h>
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+i<OpenGLES/EAGL.h>
+i"iOS/glu.h"
+i"iOS/EAGLView.h"
+i<OpenGL/gl.h>
+i<OpenGL/glu.h>
+i<Cocoa/Cocoa.h>
+i"Mac/MacGLView.h"
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/libs/cocos2d/Platforms/CCNS.h
+c000000004D65BF9F0000000000000965
+t1298513823
+s2405
+i<Availability.h>
+i<Foundation/Foundation.h>
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/libs/cocos2d/Platforms/Mac/CCDirectorMac.h
+c000000004D65BF9F0000000000000C84
+t1298513823
+s3204
+i<Availability.h>
+i<QuartzCore/CVDisplayLink.h>
+i"../../CCDirector.h"
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/libs/cocos2d/Platforms/Mac/CCEventDispatcher.h
+c000000004D65BF9F0000000000001AA7
+t1298513823
+s6823
+i<Availability.h>
+i<Cocoa/Cocoa.h>
+i"MacGLView.h"
+i"../../Support/uthash.h"
+i"../../Support/utlist.h"
+i"../../ccConfig.h"
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/libs/cocos2d/Platforms/Mac/MacGLView.h
+c000000004D65BF9F0000000000000B8C
+t1298513823
+s2956
+i<Availability.h>
+i<Cocoa/Cocoa.h>
+i"../../ccConfig.h"
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/libs/cocos2d/Platforms/iOS/CCDirectorIOS.h
+c000000004D65BF9F0000000000002B53
+t1298513823
+s11091
+i<Availability.h>
+i"../../CCDirector.h"
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/libs/cocos2d/Platforms/iOS/CCTouchDelegateProtocol.h
+c000000004D65BF9F0000000000000BC3
+t1298513823
+s3011
+i<Availability.h>
+i<UIKit/UIKit.h>
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/libs/cocos2d/Platforms/iOS/CCTouchDispatcher.h
+c000000004D65BF9F00000000000010CA
+t1298513823
+s4298
+i<Availability.h>
+i"CCTouchDelegateProtocol.h"
+i"EAGLView.h"
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/libs/cocos2d/Platforms/iOS/CCTouchHandler.h
+c000000004D65BF9F0000000000000D99
+t1298513823
+s3481
+i<Availability.h>
+i"CCTouchDelegateProtocol.h"
+i"CCTouchDispatcher.h"
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/libs/cocos2d/Platforms/iOS/EAGLView.h
+c000000004D65BF9F0000000000001B69
+t1298513823
+s7017
+i<Availability.h>
+i<UIKit/UIKit.h>
+i<OpenGLES/EAGL.h>
+i<OpenGLES/EAGLDrawable.h>
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+i"ESRenderer.h"
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/libs/cocos2d/Platforms/iOS/ESRenderer.h
+c000000004D65BF9F000000000000083A
+t1298513823
+s2106
+i<Availability.h>
+i<QuartzCore/QuartzCore.h>
+i<OpenGLES/EAGL.h>
+i<OpenGLES/EAGLDrawable.h>
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/libs/cocos2d/Platforms/iOS/glu.h
+c000000004D65BF9F000000000000030D
+t1298513823
+s781
+i<Availability.h>
+i<OpenGLES/ES1/gl.h>
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/libs/cocos2d/Support/CCArray.h
+c000000004D65BF9F0000000000000BED
+t1298513823
+s3053
+i"ccCArray.h"
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/libs/cocos2d/Support/CCFileUtils.h
+c000000004D65BF9F00000000000007E8
+t1298513823
+s2024
+i<Foundation/Foundation.h>
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/libs/cocos2d/Support/CCProfiling.h
+c000000004D65BF9F00000000000006E9
+t1298513823
+s1769
+i<Foundation/Foundation.h>
+i<sys/time.h>
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/libs/cocos2d/Support/CGPointExtension.h
+c000000004D65BF9F0000000000001EAB
+t1298513823
+s7851
+i<Availability.h>
+i<CoreGraphics/CGGeometry.h>
+i<Foundation/Foundation.h>
+i<math.h>
+i<objc/objc.h>
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/libs/cocos2d/Support/OpenGL_Internal.h
+c000000004D65BF9F00000000000011A7
+t1298513823
+s4519
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/libs/cocos2d/Support/TGAlib.h
+c000000004D65BF9F0000000000000444
+t1298513823
+s1092
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/libs/cocos2d/Support/ccCArray.h
+c000000004D65BF9F00000000000030F3
+t1298513823
+s12531
+i<Foundation/Foundation.h>
+i<stdlib.h>
+i<string.h>
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/libs/cocos2d/Support/ccUtils.h
+c000000004D65BF9F0000000000000204
+t1298513823
+s516
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/libs/cocos2d/Support/uthash.h
+c000000004D65BF9F000000000000FB13
+t1298513823
+s64275
+i<string.h>
+i<stddef.h>
+i<inttypes.h>
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/libs/cocos2d/Support/utlist.h
+c000000004D65BF9F0000000000009091
+t1298513823
+s37009
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/libs/cocos2d/ccConfig.h
+c000000004D65BF9F0000000000002896
+t1298513823
+s10390
+i<Availability.h>
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/libs/cocos2d/ccMacros.h
+c000000004D65BF9F0000000000001DFE
+t1298513823
+s7678
+i<math.h>
+i"ccConfig.h"
+i<Foundation/Foundation.h>
+i<Availability.h>
+i"Platforms/iOS/CCDirectorIOS.h"
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/libs/cocos2d/ccTypes.h
+c000000004D65BF9F00000000000016D2
+t1298513823
+s5842
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<CoreGraphics/CGGeometry.h>
+i"Platforms/CCGL.h"
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/libs/cocos2d/cocos2d.h
+c000000004D65BF9F00000000000010FF
+t1298513823
+s4351
+i<Availability.h>
+i"ccConfig.h"
+i"CCActionManager.h"
+i"CCAction.h"
+i"CCActionInstant.h"
+i"CCActionInterval.h"
+i"CCActionEase.h"
+i"CCActionCamera.h"
+i"CCActionTween.h"
+i"CCActionEase.h"
+i"CCActionTiledGrid.h"
+i"CCActionGrid3D.h"
+i"CCActionGrid.h"
+i"CCActionProgressTimer.h"
+i"CCActionPageTurn3D.h"
+i"CCAnimation.h"
+i"CCAnimationCache.h"
+i"CCSprite.h"
+i"CCSpriteFrame.h"
+i"CCSpriteSheet.h"
+i"CCSpriteBatchNode.h"
+i"CCSpriteFrameCache.h"
+i"CCLabelTTF.h"
+i"CCLabelBMFont.h"
+i"CCLabelAtlas.h"
+i"CCParticleSystem.h"
+i"CCParticleSystemPoint.h"
+i"CCParticleSystemQuad.h"
+i"CCParticleExamples.h"
+i"CCTexture2D.h"
+i"CCTexturePVR.h"
+i"CCTextureCache.h"
+i"CCTextureAtlas.h"
+i"CCTransition.h"
+i"CCTransitionPageTurn.h"
+i"CCTransitionRadial.h"
+i"CCTMXTiledMap.h"
+i"CCTMXLayer.h"
+i"CCTMXObjectGroup.h"
+i"CCTMXXMLParser.h"
+i"CCTileMapAtlas.h"
+i"CCLayer.h"
+i"CCMenu.h"
+i"CCMenuItem.h"
+i"CCDrawingPrimitives.h"
+i"CCScene.h"
+i"CCScheduler.h"
+i"CCBlockSupport.h"
+i"CCCamera.h"
+i"CCProtocols.h"
+i"CCNode.h"
+i"CCDirector.h"
+i"CCAtlasNode.h"
+i"CCGrabber.h"
+i"CCGrid.h"
+i"CCParallaxNode.h"
+i"CCRenderTexture.h"
+i"CCMotionStreak.h"
+i"CCConfiguration.h"
+i"ccTypes.h"
+i"ccMacros.h"
+i"Platforms/CCGL.h"
+i"Platforms/CCNS.h"
+i"Platforms/iOS/CCTouchDispatcher.h"
+i"Platforms/iOS/CCTouchDelegateProtocol.h"
+i"Platforms/iOS/CCTouchHandler.h"
+i"Platforms/iOS/EAGLView.h"
+i"Platforms/iOS/CCDirectorIOS.h"
+i"Platforms/Mac/MacGLView.h"
+i"Platforms/Mac/CCDirectorMac.h"
+i"Support/OpenGL_Internal.h"
+i"Support/CCFileUtils.h"
+i"Support/CGPointExtension.h"
+i"Support/ccCArray.h"
+i"Support/CCArray.h"
+i"Support/ccUtils.h"
+i"Support/CCProfiling.h"
+i"CCCompatibility.h"
+
+N/Users/nathanholmberg/Projects/iPhone/Zombies/main.m
+c000000004D65BF9F0000000000000164
+t1298513823
+s356
+i<UIKit/UIKit.h>
+
+N/var/folders/YG/YGw209t2FCiunLzYZ4FXG++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Zombies_Prefix-dsekzkclifwxtcdbdbikczxrzyaz/Zombies_Prefix.pch.gch
+t1298513837
+s11971792
+
+NResources/Info.plist
+c000000004D65BF9F0000000000000515
+t1298513823
+s1301
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies320301639#320301639#0(0"0(0#1#0"8638717856#0"0#
+
+CCompileC build/Zombies.build/Debug-iphonesimulator/Zombies.build/Objects-normal/i386/Actor.o /Users/nathanholmberg/Projects/iPhone/Zombies/Classes/Actor.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s320301639.687446
+e320301639.899441
+r1
+xCompileC
+xbuild/Zombies.build/Debug-iphonesimulator/Zombies.build/Objects-normal/i386/Actor.o
+x/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/Actor.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@69"Compile /Users/nathanholmberg/Projects/iPhone/Zombies/Classes/Actor.m320301639#320301639#0(0"0(0#0#61"/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/Actor.m8630209696#2207"    cd /Users/nathanholmberg/Projects/iPhone/Zombies    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/nathanholmberg/Projects/iPhone/Zombies/build/Zombies.build/Debug-iphonesimulator/Zombies.build/Zombies-generated-files.hmap -I/Users/nathanholmberg/Projects/iPhone/Zombies/build/Zombies.build/Debug-iphonesimulator/Zombies.build/Zombies-own-target-headers.hmap -I/Users/nathanholmberg/Projects/iPhone/Zombies/build/Zombies.build/Debug-iphonesimulator/Zombies.build/Zombies-all-target-headers.hmap -iquote /Users/nathanholmberg/Projects/iPhone/Zombies/build/Zombies.build/Debug-iphonesimulator/Zombies.build/Zombies-project-headers.hmap -Wall -F/Users/nathanholmberg/Projects/iPhone/Zombies/build/Debug-iphonesimulator -I/Users/nathanholmberg/Projects/iPhone/Zombies/build/Debug-iphonesimulator/include -I/Users/nathanholmberg/Projects/iPhone/Zombies/build/Zombies.build/Debug-iphonesimulator/Zombies.build/DerivedSources/i386 -I/Users/nathanholmberg/Projects/iPhone/Zombies/build/Zombies.build/Debug-iphonesimulator/Zombies.build/DerivedSources -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -include /var/folders/YG/YGw209t2FCiunLzYZ4FXG++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Zombies_Prefix-dsekzkclifwxtcdbdbikczxrzyaz/Zombies_Prefix.pch -c /Users/nathanholmberg/Projects/iPhone/Zombies/Classes/Actor.m -o /Users/nathanholmberg/Projects/iPhone/Zombies/build/Zombies.build/Debug-iphonesimulator/Zombies.build/Objects-normal/i386/Actor.o0#
+
+CCompileC build/Zombies.build/Debug-iphonesimulator/Zombies.build/Objects-normal/i386/Actor_Player.o /Users/nathanholmberg/Projects/iPhone/Zombies/Classes/Actor_Player.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s320301639.688780
+e320301639.923164
+r1
+xCompileC
+xbuild/Zombies.build/Debug-iphonesimulator/Zombies.build/Objects-normal/i386/Actor_Player.o
+x/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/Actor_Player.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@76"Compile /Users/nathanholmberg/Projects/iPhone/Zombies/Classes/Actor_Player.m320301639#320301639#0(0"0(0#0#68"/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/Actor_Player.m8631044000#2221"    cd /Users/nathanholmberg/Projects/iPhone/Zombies    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/nathanholmberg/Projects/iPhone/Zombies/build/Zombies.build/Debug-iphonesimulator/Zombies.build/Zombies-generated-files.hmap -I/Users/nathanholmberg/Projects/iPhone/Zombies/build/Zombies.build/Debug-iphonesimulator/Zombies.build/Zombies-own-target-headers.hmap -I/Users/nathanholmberg/Projects/iPhone/Zombies/build/Zombies.build/Debug-iphonesimulator/Zombies.build/Zombies-all-target-headers.hmap -iquote /Users/nathanholmberg/Projects/iPhone/Zombies/build/Zombies.build/Debug-iphonesimulator/Zombies.build/Zombies-project-headers.hmap -Wall -F/Users/nathanholmberg/Projects/iPhone/Zombies/build/Debug-iphonesimulator -I/Users/nathanholmberg/Projects/iPhone/Zombies/build/Debug-iphonesimulator/include -I/Users/nathanholmberg/Projects/iPhone/Zombies/build/Zombies.build/Debug-iphonesimulator/Zombies.build/DerivedSources/i386 -I/Users/nathanholmberg/Projects/iPhone/Zombies/build/Zombies.build/Debug-iphonesimulator/Zombies.build/DerivedSources -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -include /var/folders/YG/YGw209t2FCiunLzYZ4FXG++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Zombies_Prefix-dsekzkclifwxtcdbdbikczxrzyaz/Zombies_Prefix.pch -c /Users/nathanholmberg/Projects/iPhone/Zombies/Classes/Actor_Player.m -o /Users/nathanholmberg/Projects/iPhone/Zombies/build/Zombies.build/Debug-iphonesimulator/Zombies.build/Objects-normal/i386/Actor_Player.o0#
+
+CCompileC build/Zombies.build/Debug-iphonesimulator/Zombies.build/Objects-normal/i386/Actor_Zombie.o /Users/nathanholmberg/Projects/iPhone/Zombies/Classes/Actor_Zombie.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s320301639.897770
+e320301639.993491
+r1
+xCompileC
+xbuild/Zombies.build/Debug-iphonesimulator/Zombies.build/Objects-normal/i386/Actor_Zombie.o
+x/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/Actor_Zombie.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@76"Compile /Users/nathanholmberg/Projects/iPhone/Zombies/Classes/Actor_Zombie.m320301639#320301639#0(0"0(0#0#68"/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/Actor_Zombie.m8641250240#2221"    cd /Users/nathanholmberg/Projects/iPhone/Zombies    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/nathanholmberg/Projects/iPhone/Zombies/build/Zombies.build/Debug-iphonesimulator/Zombies.build/Zombies-generated-files.hmap -I/Users/nathanholmberg/Projects/iPhone/Zombies/build/Zombies.build/Debug-iphonesimulator/Zombies.build/Zombies-own-target-headers.hmap -I/Users/nathanholmberg/Projects/iPhone/Zombies/build/Zombies.build/Debug-iphonesimulator/Zombies.build/Zombies-all-target-headers.hmap -iquote /Users/nathanholmberg/Projects/iPhone/Zombies/build/Zombies.build/Debug-iphonesimulator/Zombies.build/Zombies-project-headers.hmap -Wall -F/Users/nathanholmberg/Projects/iPhone/Zombies/build/Debug-iphonesimulator -I/Users/nathanholmberg/Projects/iPhone/Zombies/build/Debug-iphonesimulator/include -I/Users/nathanholmberg/Projects/iPhone/Zombies/build/Zombies.build/Debug-iphonesimulator/Zombies.build/DerivedSources/i386 -I/Users/nathanholmberg/Projects/iPhone/Zombies/build/Zombies.build/Debug-iphonesimulator/Zombies.build/DerivedSources -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -include /var/folders/YG/YGw209t2FCiunLzYZ4FXG++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Zombies_Prefix-dsekzkclifwxtcdbdbikczxrzyaz/Zombies_Prefix.pch -c /Users/nathanholmberg/Projects/iPhone/Zombies/Classes/Actor_Zombie.m -o /Users/nathanholmberg/Projects/iPhone/Zombies/build/Zombies.build/Debug-iphonesimulator/Zombies.build/Objects-normal/i386/Actor_Zombie.o0#
+
+CCompileC build/Zombies.build/Debug-iphonesimulator/Zombies.build/Objects-normal/i386/Board.o /Users/nathanholmberg/Projects/iPhone/Zombies/Classes/Board.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s320301639.690112
+e320301639.895956
+r1
+xCompileC
+xbuild/Zombies.build/Debug-iphonesimulator/Zombies.build/Objects-normal/i386/Board.o
+x/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/Board.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@69"Compile /Users/nathanholmberg/Projects/iPhone/Zombies/Classes/Board.m320301639#320301639#0(0"0(0#0#61"/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/Board.m8643692128#2207"    cd /Users/nathanholmberg/Projects/iPhone/Zombies    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/nathanholmberg/Projects/iPhone/Zombies/build/Zombies.build/Debug-iphonesimulator/Zombies.build/Zombies-generated-files.hmap -I/Users/nathanholmberg/Projects/iPhone/Zombies/build/Zombies.build/Debug-iphonesimulator/Zombies.build/Zombies-own-target-headers.hmap -I/Users/nathanholmberg/Projects/iPhone/Zombies/build/Zombies.build/Debug-iphonesimulator/Zombies.build/Zombies-all-target-headers.hmap -iquote /Users/nathanholmberg/Projects/iPhone/Zombies/build/Zombies.build/Debug-iphonesimulator/Zombies.build/Zombies-project-headers.hmap -Wall -F/Users/nathanholmberg/Projects/iPhone/Zombies/build/Debug-iphonesimulator -I/Users/nathanholmberg/Projects/iPhone/Zombies/build/Debug-iphonesimulator/include -I/Users/nathanholmberg/Projects/iPhone/Zombies/build/Zombies.build/Debug-iphonesimulator/Zombies.build/DerivedSources/i386 -I/Users/nathanholmberg/Projects/iPhone/Zombies/build/Zombies.build/Debug-iphonesimulator/Zombies.build/DerivedSources -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -include /var/folders/YG/YGw209t2FCiunLzYZ4FXG++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Zombies_Prefix-dsekzkclifwxtcdbdbikczxrzyaz/Zombies_Prefix.pch -c /Users/nathanholmberg/Projects/iPhone/Zombies/Classes/Board.m -o /Users/nathanholmberg/Projects/iPhone/Zombies/build/Zombies.build/Debug-iphonesimulator/Zombies.build/Objects-normal/i386/Board.o0#
+
+CCompileC build/Zombies.build/Debug-iphonesimulator/Zombies.build/Objects-normal/i386/HelloWorldScene.o /Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s320298067.684573
+e320298067.859807
+r0
+xCompileC
+xbuild/Zombies.build/Debug-iphonesimulator/Zombies.build/Objects-normal/i386/HelloWorldScene.o
+x/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+o/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m:10:29: error: ZombieWorldScene.h: No such file or directory
+o/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m:18: warning: cannot find interface declaration for 'ZombieWorld'
+o/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m: In function '+[ZombieWorld scene]':
+o/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m:24: warning: 'ZombieWorld' may not respond to '+alloc'
+o/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m:24: warning: (Messages without a matching method signature
+o/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m:24: warning: will be assumed to return 'id' and accept
+o/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m:24: warning: '...' as arguments.)
+o/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m:24: warning: no '-initWithLevel:andNumPlayers:' method found
+o/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m:27: warning: incompatible Objective-C types 'struct ZombieWorld *', expected 'struct CCNode *' when passing argument 1 of 'addChild:' from distinct Objective-C type
+o/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m: At top level:
+o/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m:36: error: expected '{' before '-' token
+o/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m: In function '-[ZombieWorld initWithLevel:andNumPlayers:]':
+o/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m:40: error: no super class declared in @interface for 'ZombieWorld'
+o/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m:42: warning: 'ZombieWorld' may not respond to '-parseLevel:'
+o/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m:44: error: 'mMaxPlayers' undeclared (first use in this function)
+o/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m:44: error: (Each undeclared identifier is reported only once
+o/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m:44: error: for each function it appears in.)
+o/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m:49: error: 'mBoard' undeclared (first use in this function)
+o/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m:52: error: 'mPlayers' undeclared (first use in this function)
+o/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m:53: error: expected ';' before ')' token
+o/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m:55: warning: 'ZombieWorld' may not respond to '-getPlayerSpawnPoint:'
+o/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m:55: error: invalid initializer
+o/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m:56: error: 'mPlayer' undeclared (first use in this function)
+o/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m: In function '-[ZombieWorld dealloc]':
+o/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m:73: error: 'mBoard' undeclared (first use in this function)
+o/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m:75: error: 'mPlayer' undeclared (first use in this function)
+o/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m:77: error: 'mZombies' undeclared (first use in this function)
+o/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m:79: error: 'mPlayerSpawnPoints' undeclared (first use in this function)
+o/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m:82: error: no super class declared in @interface for 'ZombieWorld'
+o/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m: In function '-[ZombieWorld parseLevel:]':
+o/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m:88: error: 'resource' undeclared (first use in this function)
+o/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m:92: error: 'mNumZombiesInitial' undeclared (first use in this function)
+o/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m:93: error: 'mNumZombiesPerTurn' undeclared (first use in this function)
+o/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m:94: error: 'mNumZombiesMaxPerPlayer' undeclared (first use in this function)
+o/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m:95: error: 'mMaxPlayers' undeclared (first use in this function)
+o/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m:97: error: 'mPlayerSpawnPoints' undeclared (first use in this function)
+o/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m:98: error: expected ';' before 'NSArray'
+o/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m:100: error: 'spawn_array' undeclared (first use in this function)
+o/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m:104: error: 'ZombieUtils' undeclared (first use in this function)
+o/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m:109: error: 'mDimensions' undeclared (first use in this function)
+o/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m:110: error: 'mSizeOfPlayTile' undeclared (first use in this function)
+o/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m:111: error: 'mOffsetToFirstTile' undeclared (first use in this function)
+o/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m:116: error: incompatible type for argument 1 of 'initWithObjects:'
+o/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m:118: warning: control reaches end of non-void function
+lSLF07#2@79"Compile /Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m320298067#320298067#0(5827"/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m:10:29: error: ZombieWorldScene.h: No such file or directory/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m:18: warning: cannot find interface declaration for 'ZombieWorld'/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m: In function '+[ZombieWorld scene]':/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m:24: warning: 'ZombieWorld' may not respond to '+alloc'/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m:24: warning: (Messages without a matching method signature/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m:24: warning: will be assumed to return 'id' and accept/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m:24: warning: '...' as arguments.)/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m:24: warning: no '-initWithLevel:andNumPlayers:' method found/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m:27: warning: incompatible Objective-C types 'struct ZombieWorld *', expected 'struct CCNode *' when passing argument 1 of 'addChild:' from distinct Objective-C type/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m: At top level:/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m:36: error: expected '{' before '-' token/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m: In function '-[ZombieWorld initWithLevel:andNumPlayers:]':/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m:40: error: no super class declared in @interface for 'ZombieWorld'/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m:42: warning: 'ZombieWorld' may not respond to '-parseLevel:'/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m:44: error: 'mMaxPlayers' undeclared (first use in this function)/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m:44: error: (Each undeclared identifier is reported only once/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m:44: error: for each function it appears in.)/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m:49: error: 'mBoard' undeclared (first use in this function)/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m:52: error: 'mPlayers' undeclared (first use in this function)/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m:53: error: expected ';' before ')' token/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m:55: warning: 'ZombieWorld' may not respond to '-getPlayerSpawnPoint:'/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m:55: error: invalid initializer/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m:56: error: 'mPlayer' undeclared (first use in this function)/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m: In function '-[ZombieWorld dealloc]':/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m:73: error: 'mBoard' undeclared (first use in this function)/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m:75: error: 'mPlayer' undeclared (first use in this function)/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m:77: error: 'mZombies' undeclared (first use in this function)/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m:79: error: 'mPlayerSpawnPoints' undeclared (first use in this function)/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m:82: error: no super class declared in @interface for 'ZombieWorld'/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m: In function '-[ZombieWorld parseLevel:]':/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m:88: error: 'resource' undeclared (first use in this function)/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m:92: error: 'mNumZombiesInitial' undeclared (first use in this function)/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m:93: error: 'mNumZombiesPerTurn' undeclared (first use in this function)/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m:94: error: 'mNumZombiesMaxPerPlayer' undeclared (first use in this function)/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m:95: error: 'mMaxPlayers' undeclared (first use in this function)/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m:97: error: 'mPlayerSpawnPoints' undeclared (first use in this function)/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m:98: error: expected ';' before 'NSArray'/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m:100: error: 'spawn_array' undeclared (first use in this function)/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m:104: error: 'ZombieUtils' undeclared (first use in this function)/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m:109: error: 'mDimensions' undeclared (first use in this function)/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m:110: error: 'mSizeOfPlayTile' undeclared (first use in this function)/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m:111: error: 'mOffsetToFirstTile' undeclared (first use in this function)/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m:116: error: incompatible type for argument 1 of 'initWithObjects:'/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m:118: warning: control reaches end of non-void function36(4@45"ZombieWorldScene.h: No such file or directory320298067#0#132#0(6@71"/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m320298061#10#0#10#0#28"*: No such file or directory0(22@51"Cannot find interface declaration for 'ZombieWorld'320298067#132#137#0(6@71"/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m320298061#18#0#18#0#0"0(22@41"'ZombieWorld' may not respond to '+alloc'320298067#378#127#0(6@71"/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m320298061#24#0#24#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)320298067#505#131#0(6@71"/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m320298061#24#0#24#0#0"0(22@47"No '-initWithLevel:andNumPlayers:' method found320298067#869#133#0(6@71"/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m320298061#24#0#24#0#19"no '*' method found0(22@151"Incompatible Objective-C types 'struct ZombieWorld *', expected 'struct CCNode *' when passing argument 1 of 'addChild:' from distinct Objective-C type320298067#1002#237#0(6@71"/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m320298061#27#0#27#0#0"0(23@13"At top level:320298067#1239#87#0(6@71"/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m320298061#0#0#0#0#0"0(4@29"Expected '{' before '-' token320298067#1326#113#0(6@71"/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m320298061#36#0#36#0#19"expected * before *0(4@55"No super class declared in @interface for 'ZombieWorld'320298067#1571#139#0(6@71"/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m320298061#40#0#40#0#0"0(22@47"'ZombieWorld' may not respond to '-parseLevel:'320298067#1710#133#0(6@71"/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m320298061#42#0#42#0#26"'*' may not respond to '*'0(4@53"'mMaxPlayers' undeclared (first use in this function)320298067#1843#137#0(6@71"/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m320298061#44#0#44#0#43"'*' undeclared (first use in this function)0(4@48"'mBoard' undeclared (first use in this function)320298067#2230#132#0(6@71"/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m320298061#49#0#49#0#43"'*' undeclared (first use in this function)0(4@50"'mPlayers' undeclared (first use in this function)320298067#2362#134#0(6@71"/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m320298061#52#0#52#0#43"'*' undeclared (first use in this function)0(4@29"Expected ';' before ')' token320298067#2496#113#0(6@71"/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m320298061#53#0#53#0#19"expected * before *0(22@56"'ZombieWorld' may not respond to '-getPlayerSpawnPoint:'320298067#2609#142#0(6@71"/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m320298061#55#0#55#0#26"'*' may not respond to '*'0(4@19"Invalid initializer320298067#2751#103#0(6@71"/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m320298061#55#0#55#0#0"0(4@49"'mPlayer' undeclared (first use in this function)320298067#2854#133#0(6@71"/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m320298061#56#0#56#0#43"'*' undeclared (first use in this function)0(4@48"'mBoard' undeclared (first use in this function)320298067#3098#132#0(6@71"/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m320298061#73#0#73#0#43"'*' undeclared (first use in this function)0(4@49"'mPlayer' undeclared (first use in this function)320298067#3230#133#0(6@71"/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m320298061#75#0#75#0#43"'*' undeclared (first use in this function)0(4@50"'mZombies' undeclared (first use in this function)320298067#3363#134#0(6@71"/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m320298061#77#0#77#0#43"'*' undeclared (first use in this function)0(4@60"'mPlayerSpawnPoints' undeclared (first use in this function)320298067#3497#144#0(6@71"/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m320298061#79#0#79#0#43"'*' undeclared (first use in this function)0(4@55"No super class declared in @interface for 'ZombieWorld'320298067#3641#139#0(6@71"/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m320298061#82#0#82#0#0"0(4@50"'resource' undeclared (first use in this function)320298067#3895#134#0(6@71"/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m320298061#88#0#88#0#43"'*' undeclared (first use in this function)0(4@60"'mNumZombiesInitial' undeclared (first use in this function)320298067#4029#144#0(6@71"/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m320298061#92#0#92#0#43"'*' undeclared (first use in this function)0(4@60"'mNumZombiesPerTurn' undeclared (first use in this function)320298067#4173#144#0(6@71"/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m320298061#93#0#93#0#43"'*' undeclared (first use in this function)0(4@65"'mNumZombiesMaxPerPlayer' undeclared (first use in this function)320298067#4317#149#0(6@71"/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m320298061#94#0#94#0#43"'*' undeclared (first use in this function)0(4@53"'mMaxPlayers' undeclared (first use in this function)320298067#4466#137#0(6@71"/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m320298061#95#0#95#0#43"'*' undeclared (first use in this function)0(4@60"'mPlayerSpawnPoints' undeclared (first use in this function)320298067#4603#144#0(6@71"/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m320298061#97#0#97#0#43"'*' undeclared (first use in this function)0(4@29"Expected ';' before 'NSArray'320298067#4747#113#0(6@71"/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m320298061#98#0#98#0#19"expected * before *0(4@53"'spawn_array' undeclared (first use in this function)320298067#4860#138#0(6@71"/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m320298061#100#0#100#0#43"'*' undeclared (first use in this function)0(4@53"'ZombieUtils' undeclared (first use in this function)320298067#4998#138#0(6@71"/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m320298061#104#0#104#0#43"'*' undeclared (first use in this function)0(4@53"'mDimensions' undeclared (first use in this function)320298067#5136#138#0(6@71"/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m320298061#109#0#109#0#43"'*' undeclared (first use in this function)0(4@57"'mSizeOfPlayTile' undeclared (first use in this function)320298067#5274#142#0(6@71"/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m320298061#110#0#110#0#43"'*' undeclared (first use in this function)0(4@60"'mOffsetToFirstTile' undeclared (first use in this function)320298067#5416#145#0(6@71"/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m320298061#111#0#111#0#43"'*' undeclared (first use in this function)0(4@54"Incompatible type for argument 1 of 'initWithObjects:'320298067#5561#139#0(6@71"/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m320298061#116#0#116#0#0"0(22@40"Control reaches end of non-void function320298067#5700#127#0(6@71"/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m320298061#118#0#118#0#40"control reaches end of non-void function0(0#0#71"/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m8616102656#2227"    cd /Users/nathanholmberg/Projects/iPhone/Zombies    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/nathanholmberg/Projects/iPhone/Zombies/build/Zombies.build/Debug-iphonesimulator/Zombies.build/Zombies-generated-files.hmap -I/Users/nathanholmberg/Projects/iPhone/Zombies/build/Zombies.build/Debug-iphonesimulator/Zombies.build/Zombies-own-target-headers.hmap -I/Users/nathanholmberg/Projects/iPhone/Zombies/build/Zombies.build/Debug-iphonesimulator/Zombies.build/Zombies-all-target-headers.hmap -iquote /Users/nathanholmberg/Projects/iPhone/Zombies/build/Zombies.build/Debug-iphonesimulator/Zombies.build/Zombies-project-headers.hmap -Wall -F/Users/nathanholmberg/Projects/iPhone/Zombies/build/Debug-iphonesimulator -I/Users/nathanholmberg/Projects/iPhone/Zombies/build/Debug-iphonesimulator/include -I/Users/nathanholmberg/Projects/iPhone/Zombies/build/Zombies.build/Debug-iphonesimulator/Zombies.build/DerivedSources/i386 -I/Users/nathanholmberg/Projects/iPhone/Zombies/build/Zombies.build/Debug-iphonesimulator/Zombies.build/DerivedSources -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -include /var/folders/YG/YGw209t2FCiunLzYZ4FXG++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Zombies_Prefix-dsekzkclifwxtcdbdbikczxrzyaz/Zombies_Prefix.pch -c /Users/nathanholmberg/Projects/iPhone/Zombies/Classes/HelloWorldScene.m -o /Users/nathanholmberg/Projects/iPhone/Zombies/build/Zombies.build/Debug-iphonesimulator/Zombies.build/Objects-normal/i386/HelloWorldScene.o1#
+
+CCompileC build/Zombies.build/Debug-iphonesimulator/Zombies.build/Objects-normal/i386/RootViewController.o /Users/nathanholmberg/Projects/iPhone/Zombies/Classes/RootViewController.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s320206637.530503
+e320206637.703499
+r1
+xCompileC
+xbuild/Zombies.build/Debug-iphonesimulator/Zombies.build/Objects-normal/i386/RootViewController.o
+x/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/RootViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@82"Compile /Users/nathanholmberg/Projects/iPhone/Zombies/Classes/RootViewController.m320206637#320206637#0(0"0(0#0#74"/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/RootViewController.m8607934112#2233"    cd /Users/nathanholmberg/Projects/iPhone/Zombies    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/nathanholmberg/Projects/iPhone/Zombies/build/Zombies.build/Debug-iphonesimulator/Zombies.build/Zombies-generated-files.hmap -I/Users/nathanholmberg/Projects/iPhone/Zombies/build/Zombies.build/Debug-iphonesimulator/Zombies.build/Zombies-own-target-headers.hmap -I/Users/nathanholmberg/Projects/iPhone/Zombies/build/Zombies.build/Debug-iphonesimulator/Zombies.build/Zombies-all-target-headers.hmap -iquote /Users/nathanholmberg/Projects/iPhone/Zombies/build/Zombies.build/Debug-iphonesimulator/Zombies.build/Zombies-project-headers.hmap -Wall -F/Users/nathanholmberg/Projects/iPhone/Zombies/build/Debug-iphonesimulator -I/Users/nathanholmberg/Projects/iPhone/Zombies/build/Debug-iphonesimulator/include -I/Users/nathanholmberg/Projects/iPhone/Zombies/build/Zombies.build/Debug-iphonesimulator/Zombies.build/DerivedSources/i386 -I/Users/nathanholmberg/Projects/iPhone/Zombies/build/Zombies.build/Debug-iphonesimulator/Zombies.build/DerivedSources -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -include /var/folders/YG/YGw209t2FCiunLzYZ4FXG++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Zombies_Prefix-dsekzkclifwxtcdbdbikczxrzyaz/Zombies_Prefix.pch -c /Users/nathanholmberg/Projects/iPhone/Zombies/Classes/RootViewController.m -o /Users/nathanholmberg/Projects/iPhone/Zombies/build/Zombies.build/Debug-iphonesimulator/Zombies.build/Objects-normal/i386/RootViewController.o0#
+
+CCompileC build/Zombies.build/Debug-iphonesimulator/Zombies.build/Objects-normal/i386/ZombieCollective.o /Users/nathanholmberg/Projects/iPhone/Zombies/Classes/ZombieCollective.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s320301375.809818
+e320301375.913629
+r1
+xCompileC
+xbuild/Zombies.build/Debug-iphonesimulator/Zombies.build/Objects-normal/i386/ZombieCollective.o
+x/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/ZombieCollective.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@80"Compile /Users/nathanholmberg/Projects/iPhone/Zombies/Classes/ZombieCollective.m320301375#320301375#0(0"0(0#0#72"/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/ZombieCollective.m8629058656#2229"    cd /Users/nathanholmberg/Projects/iPhone/Zombies    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/nathanholmberg/Projects/iPhone/Zombies/build/Zombies.build/Debug-iphonesimulator/Zombies.build/Zombies-generated-files.hmap -I/Users/nathanholmberg/Projects/iPhone/Zombies/build/Zombies.build/Debug-iphonesimulator/Zombies.build/Zombies-own-target-headers.hmap -I/Users/nathanholmberg/Projects/iPhone/Zombies/build/Zombies.build/Debug-iphonesimulator/Zombies.build/Zombies-all-target-headers.hmap -iquote /Users/nathanholmberg/Projects/iPhone/Zombies/build/Zombies.build/Debug-iphonesimulator/Zombies.build/Zombies-project-headers.hmap -Wall -F/Users/nathanholmberg/Projects/iPhone/Zombies/build/Debug-iphonesimulator -I/Users/nathanholmberg/Projects/iPhone/Zombies/build/Debug-iphonesimulator/include -I/Users/nathanholmberg/Projects/iPhone/Zombies/build/Zombies.build/Debug-iphonesimulator/Zombies.build/DerivedSources/i386 -I/Users/nathanholmberg/Projects/iPhone/Zombies/build/Zombies.build/Debug-iphonesimulator/Zombies.build/DerivedSources -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -include /var/folders/YG/YGw209t2FCiunLzYZ4FXG++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Zombies_Prefix-dsekzkclifwxtcdbdbikczxrzyaz/Zombies_Prefix.pch -c /Users/nathanholmberg/Projects/iPhone/Zombies/Classes/ZombieCollective.m -o /Users/nathanholmberg/Projects/iPhone/Zombies/build/Zombies.build/Debug-iphonesimulator/Zombies.build/Objects-normal/i386/ZombieCollective.o0#
+
+CCompileC build/Zombies.build/Debug-iphonesimulator/Zombies.build/Objects-normal/i386/ZombieUtils.o /Users/nathanholmberg/Projects/iPhone/Zombies/Classes/ZombieUtils.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s320298067.780802
+e320298067.906714
+r1
+xCompileC
+xbuild/Zombies.build/Debug-iphonesimulator/Zombies.build/Objects-normal/i386/ZombieUtils.o
+x/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/ZombieUtils.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@75"Compile /Users/nathanholmberg/Projects/iPhone/Zombies/Classes/ZombieUtils.m320298067#320298067#0(0"0(0#0#67"/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/ZombieUtils.m8625664000#2219"    cd /Users/nathanholmberg/Projects/iPhone/Zombies    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/nathanholmberg/Projects/iPhone/Zombies/build/Zombies.build/Debug-iphonesimulator/Zombies.build/Zombies-generated-files.hmap -I/Users/nathanholmberg/Projects/iPhone/Zombies/build/Zombies.build/Debug-iphonesimulator/Zombies.build/Zombies-own-target-headers.hmap -I/Users/nathanholmberg/Projects/iPhone/Zombies/build/Zombies.build/Debug-iphonesimulator/Zombies.build/Zombies-all-target-headers.hmap -iquote /Users/nathanholmberg/Projects/iPhone/Zombies/build/Zombies.build/Debug-iphonesimulator/Zombies.build/Zombies-project-headers.hmap -Wall -F/Users/nathanholmberg/Projects/iPhone/Zombies/build/Debug-iphonesimulator -I/Users/nathanholmberg/Projects/iPhone/Zombies/build/Debug-iphonesimulator/include -I/Users/nathanholmberg/Projects/iPhone/Zombies/build/Zombies.build/Debug-iphonesimulator/Zombies.build/DerivedSources/i386 -I/Users/nathanholmberg/Projects/iPhone/Zombies/build/Zombies.build/Debug-iphonesimulator/Zombies.build/DerivedSources -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -include /var/folders/YG/YGw209t2FCiunLzYZ4FXG++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Zombies_Prefix-dsekzkclifwxtcdbdbikczxrzyaz/Zombies_Prefix.pch -c /Users/nathanholmberg/Projects/iPhone/Zombies/Classes/ZombieUtils.m -o /Users/nathanholmberg/Projects/iPhone/Zombies/build/Zombies.build/Debug-iphonesimulator/Zombies.build/Objects-normal/i386/ZombieUtils.o0#
+
+CCompileC build/Zombies.build/Debug-iphonesimulator/Zombies.build/Objects-normal/i386/ZombieWorldScene.o /Users/nathanholmberg/Projects/iPhone/Zombies/Classes/ZombieWorldScene.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s320301639.685713
+e320301639.902222
+r1
+xCompileC
+xbuild/Zombies.build/Debug-iphonesimulator/Zombies.build/Objects-normal/i386/ZombieWorldScene.o
+x/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/ZombieWorldScene.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@80"Compile /Users/nathanholmberg/Projects/iPhone/Zombies/Classes/ZombieWorldScene.m320301639#320301639#0(0"0(0#0#72"/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/ZombieWorldScene.m8636646272#2229"    cd /Users/nathanholmberg/Projects/iPhone/Zombies    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/nathanholmberg/Projects/iPhone/Zombies/build/Zombies.build/Debug-iphonesimulator/Zombies.build/Zombies-generated-files.hmap -I/Users/nathanholmberg/Projects/iPhone/Zombies/build/Zombies.build/Debug-iphonesimulator/Zombies.build/Zombies-own-target-headers.hmap -I/Users/nathanholmberg/Projects/iPhone/Zombies/build/Zombies.build/Debug-iphonesimulator/Zombies.build/Zombies-all-target-headers.hmap -iquote /Users/nathanholmberg/Projects/iPhone/Zombies/build/Zombies.build/Debug-iphonesimulator/Zombies.build/Zombies-project-headers.hmap -Wall -F/Users/nathanholmberg/Projects/iPhone/Zombies/build/Debug-iphonesimulator -I/Users/nathanholmberg/Projects/iPhone/Zombies/build/Debug-iphonesimulator/include -I/Users/nathanholmberg/Projects/iPhone/Zombies/build/Zombies.build/Debug-iphonesimulator/Zombies.build/DerivedSources/i386 -I/Users/nathanholmberg/Projects/iPhone/Zombies/build/Zombies.build/Debug-iphonesimulator/Zombies.build/DerivedSources -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -include /var/folders/YG/YGw209t2FCiunLzYZ4FXG++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Zombies_Prefix-dsekzkclifwxtcdbdbikczxrzyaz/Zombies_Prefix.pch -c /Users/nathanholmberg/Projects/iPhone/Zombies/Classes/ZombieWorldScene.m -o /Users/nathanholmberg/Projects/iPhone/Zombies/build/Zombies.build/Debug-iphonesimulator/Zombies.build/Objects-normal/i386/ZombieWorldScene.o0#
+
+CCompileC build/Zombies.build/Debug-iphonesimulator/Zombies.build/Objects-normal/i386/ZombiesAppDelegate.o /Users/nathanholmberg/Projects/iPhone/Zombies/Classes/ZombiesAppDelegate.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s320300185.306583
+e320300185.494533
+r1
+xCompileC
+xbuild/Zombies.build/Debug-iphonesimulator/Zombies.build/Objects-normal/i386/ZombiesAppDelegate.o
+x/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/ZombiesAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@82"Compile /Users/nathanholmberg/Projects/iPhone/Zombies/Classes/ZombiesAppDelegate.m320300185#320300185#0(0"0(0#0#74"/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/ZombiesAppDelegate.m8611041856#2233"    cd /Users/nathanholmberg/Projects/iPhone/Zombies    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/nathanholmberg/Projects/iPhone/Zombies/build/Zombies.build/Debug-iphonesimulator/Zombies.build/Zombies-generated-files.hmap -I/Users/nathanholmberg/Projects/iPhone/Zombies/build/Zombies.build/Debug-iphonesimulator/Zombies.build/Zombies-own-target-headers.hmap -I/Users/nathanholmberg/Projects/iPhone/Zombies/build/Zombies.build/Debug-iphonesimulator/Zombies.build/Zombies-all-target-headers.hmap -iquote /Users/nathanholmberg/Projects/iPhone/Zombies/build/Zombies.build/Debug-iphonesimulator/Zombies.build/Zombies-project-headers.hmap -Wall -F/Users/nathanholmberg/Projects/iPhone/Zombies/build/Debug-iphonesimulator -I/Users/nathanholmberg/Projects/iPhone/Zombies/build/Debug-iphonesimulator/include -I/Users/nathanholmberg/Projects/iPhone/Zombies/build/Zombies.build/Debug-iphonesimulator/Zombies.build/DerivedSources/i386 -I/Users/nathanholmberg/Projects/iPhone/Zombies/build/Zombies.build/Debug-iphonesimulator/Zombies.build/DerivedSources -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -include /var/folders/YG/YGw209t2FCiunLzYZ4FXG++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Zombies_Prefix-dsekzkclifwxtcdbdbikczxrzyaz/Zombies_Prefix.pch -c /Users/nathanholmberg/Projects/iPhone/Zombies/Classes/ZombiesAppDelegate.m -o /Users/nathanholmberg/Projects/iPhone/Zombies/build/Zombies.build/Debug-iphonesimulator/Zombies.build/Objects-normal/i386/ZombiesAppDelegate.o0#
+
+CCompileC build/Zombies.build/Debug-iphonesimulator/Zombies.build/Objects-normal/i386/main.o /Users/nathanholmberg/Projects/iPhone/Zombies/main.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s320206637.525577
+e320206637.589394
+r1
+xCompileC
+xbuild/Zombies.build/Debug-iphonesimulator/Zombies.build/Objects-normal/i386/main.o
+x/Users/nathanholmberg/Projects/iPhone/Zombies/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@60"Compile /Users/nathanholmberg/Projects/iPhone/Zombies/main.m320206637#320206637#0(0"0(0#0#52"/Users/nathanholmberg/Projects/iPhone/Zombies/main.m8606608320#2197"    cd /Users/nathanholmberg/Projects/iPhone/Zombies    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/nathanholmberg/Projects/iPhone/Zombies/build/Zombies.build/Debug-iphonesimulator/Zombies.build/Zombies-generated-files.hmap -I/Users/nathanholmberg/Projects/iPhone/Zombies/build/Zombies.build/Debug-iphonesimulator/Zombies.build/Zombies-own-target-headers.hmap -I/Users/nathanholmberg/Projects/iPhone/Zombies/build/Zombies.build/Debug-iphonesimulator/Zombies.build/Zombies-all-target-headers.hmap -iquote /Users/nathanholmberg/Projects/iPhone/Zombies/build/Zombies.build/Debug-iphonesimulator/Zombies.build/Zombies-project-headers.hmap -Wall -F/Users/nathanholmberg/Projects/iPhone/Zombies/build/Debug-iphonesimulator -I/Users/nathanholmberg/Projects/iPhone/Zombies/build/Debug-iphonesimulator/include -I/Users/nathanholmberg/Projects/iPhone/Zombies/build/Zombies.build/Debug-iphonesimulator/Zombies.build/DerivedSources/i386 -I/Users/nathanholmberg/Projects/iPhone/Zombies/build/Zombies.build/Debug-iphonesimulator/Zombies.build/DerivedSources -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -include /var/folders/YG/YGw209t2FCiunLzYZ4FXG++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Zombies_Prefix-dsekzkclifwxtcdbdbikczxrzyaz/Zombies_Prefix.pch -c /Users/nathanholmberg/Projects/iPhone/Zombies/main.m -o /Users/nathanholmberg/Projects/iPhone/Zombies/build/Zombies.build/Debug-iphonesimulator/Zombies.build/Objects-normal/i386/main.o0#
+
+CCopyPlistFile /Users/nathanholmberg/Projects/iPhone/Zombies/build/Debug-iphonesimulator/Zombies.app/Base-1Screen.plist Resources/Boards/Base-1Screen.plist
+s320299754.840200
+e320299754.867127
+r1
+xCopyPlistFile
+x/Users/nathanholmberg/Projects/iPhone/Zombies/build/Debug-iphonesimulator/Zombies.app/Base-1Screen.plist
+xResources/Boards/Base-1Screen.plist
+lSLF07#2@40"Copy Resources/Boards/Base-1Screen.plist320299754#320299754#0(0"0(0#0#81"/Users/nathanholmberg/Projects/iPhone/Zombies/Resources/Boards/Base-1Screen.plist27866379179851820#486"    cd /Users/nathanholmberg/Projects/iPhone/Zombies    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist --convert binary1 Resources/Boards/Base-1Screen.plist --outdir /Users/nathanholmberg/Projects/iPhone/Zombies/build/Debug-iphonesimulator/Zombies.app0#
+
+CCpResource build/Debug-iphonesimulator/Zombies.app/Base-1Screen.png Resources/Boards/Base-1Screen.png
+s320272411.315337
+e320272411.403403
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Zombies.app/Base-1Screen.png
+xResources/Boards/Base-1Screen.png
+lSLF07#2@38"Copy Resources/Boards/Base-1Screen.png320272411#320272411#0(0"0(0#0#79"/Users/nathanholmberg/Projects/iPhone/Zombies/Resources/Boards/Base-1Screen.png27866379179851820#574"    cd /Users/nathanholmberg/Projects/iPhone/Zombies    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/nathanholmberg/Projects/iPhone/Zombies/Resources/Boards/Base-1Screen.png /Users/nathanholmberg/Projects/iPhone/Zombies/build/Debug-iphonesimulator/Zombies.app0#
+
+CCpResource build/Debug-iphonesimulator/Zombies.app/Default.png Resources/Default.png
+s320206636.925419
+e320206636.935308
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Zombies.app/Default.png
+xResources/Default.png
+lSLF07#2@26"Copy Resources/Default.png320206636#320206636#0(0"0(0#0#67"/Users/nathanholmberg/Projects/iPhone/Zombies/Resources/Default.png8606276928#562"    cd /Users/nathanholmberg/Projects/iPhone/Zombies    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/nathanholmberg/Projects/iPhone/Zombies/Resources/Default.png /Users/nathanholmberg/Projects/iPhone/Zombies/build/Debug-iphonesimulator/Zombies.app0#
+
+CCpResource build/Debug-iphonesimulator/Zombies.app/Icon-72.png Resources/Icon-72.png
+s320206636.933341
+e320206636.942793
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Zombies.app/Icon-72.png
+xResources/Icon-72.png
+lSLF07#2@26"Copy Resources/Icon-72.png320206636#320206636#0(0"0(0#0#67"/Users/nathanholmberg/Projects/iPhone/Zombies/Resources/Icon-72.png8606181024#562"    cd /Users/nathanholmberg/Projects/iPhone/Zombies    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/nathanholmberg/Projects/iPhone/Zombies/Resources/Icon-72.png /Users/nathanholmberg/Projects/iPhone/Zombies/build/Debug-iphonesimulator/Zombies.app0#
+
+CCpResource build/Debug-iphonesimulator/Zombies.app/Icon-Small-50.png Resources/Icon-Small-50.png
+s320206636.931972
+e320206636.939241
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Zombies.app/Icon-Small-50.png
+xResources/Icon-Small-50.png
+lSLF07#2@32"Copy Resources/Icon-Small-50.png320206636#320206636#0(0"0(0#0#73"/Users/nathanholmberg/Projects/iPhone/Zombies/Resources/Icon-Small-50.png8601193824#568"    cd /Users/nathanholmberg/Projects/iPhone/Zombies    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/nathanholmberg/Projects/iPhone/Zombies/Resources/Icon-Small-50.png /Users/nathanholmberg/Projects/iPhone/Zombies/build/Debug-iphonesimulator/Zombies.app0#
+
+CCpResource build/Debug-iphonesimulator/Zombies.app/Icon-Small.png Resources/Icon-Small.png
+s320206636.929809
+e320206636.938993
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Zombies.app/Icon-Small.png
+xResources/Icon-Small.png
+lSLF07#2@29"Copy Resources/Icon-Small.png320206636#320206636#0(0"0(0#0#70"/Users/nathanholmberg/Projects/iPhone/Zombies/Resources/Icon-Small.png8604087040#565"    cd /Users/nathanholmberg/Projects/iPhone/Zombies    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/nathanholmberg/Projects/iPhone/Zombies/Resources/Icon-Small.png /Users/nathanholmberg/Projects/iPhone/Zombies/build/Debug-iphonesimulator/Zombies.app0#
+
+CCpResource build/Debug-iphonesimulator/Zombies.app/Icon-Small@2x.png Resources/Icon-Small@2x.png
+s320206636.928759
+e320206636.938304
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Zombies.app/Icon-Small@2x.png
+xResources/Icon-Small@2x.png
+lSLF07#2@32"Copy Resources/Icon-Small@2x.png320206636#320206636#0(0"0(0#0#73"/Users/nathanholmberg/Projects/iPhone/Zombies/Resources/Icon-Small@2x.png8605097472#568"    cd /Users/nathanholmberg/Projects/iPhone/Zombies    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/nathanholmberg/Projects/iPhone/Zombies/Resources/Icon-Small@2x.png /Users/nathanholmberg/Projects/iPhone/Zombies/build/Debug-iphonesimulator/Zombies.app0#
+
+CCpResource build/Debug-iphonesimulator/Zombies.app/Icon.png Resources/Icon.png
+s320206636.927022
+e320206636.935699
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Zombies.app/Icon.png
+xResources/Icon.png
+lSLF07#2@23"Copy Resources/Icon.png320206636#320206636#0(0"0(0#0#64"/Users/nathanholmberg/Projects/iPhone/Zombies/Resources/Icon.png8605535264#559"    cd /Users/nathanholmberg/Projects/iPhone/Zombies    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/nathanholmberg/Projects/iPhone/Zombies/Resources/Icon.png /Users/nathanholmberg/Projects/iPhone/Zombies/build/Debug-iphonesimulator/Zombies.app0#
+
+CCpResource build/Debug-iphonesimulator/Zombies.app/Icon@2x.png Resources/Icon@2x.png
+s320206636.927860
+e320206636.941292
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Zombies.app/Icon@2x.png
+xResources/Icon@2x.png
+lSLF07#2@26"Copy Resources/Icon@2x.png320206636#320206636#0(0"0(0#0#67"/Users/nathanholmberg/Projects/iPhone/Zombies/Resources/Icon@2x.png8605448480#562"    cd /Users/nathanholmberg/Projects/iPhone/Zombies    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/nathanholmberg/Projects/iPhone/Zombies/Resources/Icon@2x.png /Users/nathanholmberg/Projects/iPhone/Zombies/build/Debug-iphonesimulator/Zombies.app0#
+
+CCpResource build/Debug-iphonesimulator/Zombies.app/Player1.png Resources/Actors/Player1.png
+s320208777.579700
+e320208777.592197
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Zombies.app/Player1.png
+xResources/Actors/Player1.png
+lSLF07#2@33"Copy Resources/Actors/Player1.png320208777#320208777#0(0"0(0#0#74"/Users/nathanholmberg/Projects/iPhone/Zombies/Resources/Actors/Player1.png8590263776#569"    cd /Users/nathanholmberg/Projects/iPhone/Zombies    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/nathanholmberg/Projects/iPhone/Zombies/Resources/Actors/Player1.png /Users/nathanholmberg/Projects/iPhone/Zombies/build/Debug-iphonesimulator/Zombies.app0#
+
+CCpResource build/Debug-iphonesimulator/Zombies.app/Player1.png Resources/Player1.png
+s320208066.957959
+e320208066.964334
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Zombies.app/Player1.png
+xResources/Player1.png
+lSLF07#2@26"Copy Resources/Player1.png320208066#320208066#0(0"0(0#0#67"/Users/nathanholmberg/Projects/iPhone/Zombies/Resources/Player1.png8622232448#562"    cd /Users/nathanholmberg/Projects/iPhone/Zombies    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/nathanholmberg/Projects/iPhone/Zombies/Resources/Player1.png /Users/nathanholmberg/Projects/iPhone/Zombies/build/Debug-iphonesimulator/Zombies.app0#
+
+CCpResource build/Debug-iphonesimulator/Zombies.app/Player2.png Resources/Actors/Player2.png
+s320208777.586327
+e320208777.592449
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Zombies.app/Player2.png
+xResources/Actors/Player2.png
+lSLF07#2@33"Copy Resources/Actors/Player2.png320208777#320208777#0(0"0(0#0#74"/Users/nathanholmberg/Projects/iPhone/Zombies/Resources/Actors/Player2.png8625931680#569"    cd /Users/nathanholmberg/Projects/iPhone/Zombies    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/nathanholmberg/Projects/iPhone/Zombies/Resources/Actors/Player2.png /Users/nathanholmberg/Projects/iPhone/Zombies/build/Debug-iphonesimulator/Zombies.app0#
+
+CCpResource build/Debug-iphonesimulator/Zombies.app/Player2.png Resources/Player2.png
+s320208066.958959
+e320208066.964884
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Zombies.app/Player2.png
+xResources/Player2.png
+lSLF07#2@26"Copy Resources/Player2.png320208066#320208066#0(0"0(0#0#67"/Users/nathanholmberg/Projects/iPhone/Zombies/Resources/Player2.png8622307072#562"    cd /Users/nathanholmberg/Projects/iPhone/Zombies    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/nathanholmberg/Projects/iPhone/Zombies/Resources/Player2.png /Users/nathanholmberg/Projects/iPhone/Zombies/build/Debug-iphonesimulator/Zombies.app0#
+
+CCpResource build/Debug-iphonesimulator/Zombies.app/Zombie.png Resources/Actors/Zombie.png
+s320208777.587611
+e320208777.593588
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Zombies.app/Zombie.png
+xResources/Actors/Zombie.png
+lSLF07#2@32"Copy Resources/Actors/Zombie.png320208777#320208777#0(0"0(0#0#73"/Users/nathanholmberg/Projects/iPhone/Zombies/Resources/Actors/Zombie.png8625909696#568"    cd /Users/nathanholmberg/Projects/iPhone/Zombies    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/nathanholmberg/Projects/iPhone/Zombies/Resources/Actors/Zombie.png /Users/nathanholmberg/Projects/iPhone/Zombies/build/Debug-iphonesimulator/Zombies.app0#
+
+CCpResource build/Debug-iphonesimulator/Zombies.app/Zombie.png Resources/Zombie.png
+s320208066.959725
+e320208066.965828
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Zombies.app/Zombie.png
+xResources/Zombie.png
+lSLF07#2@25"Copy Resources/Zombie.png320208066#320208066#0(0"0(0#0#66"/Users/nathanholmberg/Projects/iPhone/Zombies/Resources/Zombie.png8622165312#561"    cd /Users/nathanholmberg/Projects/iPhone/Zombies    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/nathanholmberg/Projects/iPhone/Zombies/Resources/Zombie.png /Users/nathanholmberg/Projects/iPhone/Zombies/build/Debug-iphonesimulator/Zombies.app0#
+
+CCpResource build/Debug-iphonesimulator/Zombies.app/fps_images.png Resources/fps_images.png
+s320206636.926377
+e320206636.935486
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Zombies.app/fps_images.png
+xResources/fps_images.png
+lSLF07#2@29"Copy Resources/fps_images.png320206636#320206636#0(0"0(0#0#70"/Users/nathanholmberg/Projects/iPhone/Zombies/Resources/fps_images.png8606085056#565"    cd /Users/nathanholmberg/Projects/iPhone/Zombies    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/nathanholmberg/Projects/iPhone/Zombies/Resources/fps_images.png /Users/nathanholmberg/Projects/iPhone/Zombies/build/Debug-iphonesimulator/Zombies.app0#
+
+CCpResource build/Debug-iphonesimulator/Zombies.app/iTunesArtwork Resources/iTunesArtwork
+s320206636.934238
+e320206636.942600
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Zombies.app/iTunesArtwork
+xResources/iTunesArtwork
+lSLF07#2@28"Copy Resources/iTunesArtwork320206636#320206636#0(0"0(0#0#69"/Users/nathanholmberg/Projects/iPhone/Zombies/Resources/iTunesArtwork8601025536#564"    cd /Users/nathanholmberg/Projects/iPhone/Zombies    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/nathanholmberg/Projects/iPhone/Zombies/Resources/iTunesArtwork /Users/nathanholmberg/Projects/iPhone/Zombies/build/Debug-iphonesimulator/Zombies.app0#
+
+CGenerateDSYMFile /Users/nathanholmberg/Projects/iPhone/Zombies/build/Debug-iphonesimulator/Zombies.app.dSYM /Users/nathanholmberg/Projects/iPhone/Zombies/build/Debug-iphonesimulator/Zombies.app/Zombies
+s320301640.194903
+e320301640.315045
+r1
+xGenerateDSYMFile
+x/Users/nathanholmberg/Projects/iPhone/Zombies/build/Debug-iphonesimulator/Zombies.app.dSYM
+x/Users/nathanholmberg/Projects/iPhone/Zombies/build/Debug-iphonesimulator/Zombies.app/Zombies
+lSLF07#2@109"GenerateDSYMFile build/Debug-iphonesimulator/Zombies.app.dSYM build/Debug-iphonesimulator/Zombies.app/Zombies320301640#320301640#0(0"0(0#0#93"/Users/nathanholmberg/Projects/iPhone/Zombies/build/Debug-iphonesimulator/Zombies.app/Zombies8648731328#466"    cd /Users/nathanholmberg/Projects/iPhone/Zombies    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/dsymutil /Users/nathanholmberg/Projects/iPhone/Zombies/build/Debug-iphonesimulator/Zombies.app/Zombies -o /Users/nathanholmberg/Projects/iPhone/Zombies/build/Debug-iphonesimulator/Zombies.app.dSYM0#
+
+CLd /Users/nathanholmberg/Projects/iPhone/Zombies/build/Debug-iphonesimulator/Zombies.app/Zombies normal i386
+s320301639.993584
+e320301640.194804
+r1
+xLd
+x/Users/nathanholmberg/Projects/iPhone/Zombies/build/Debug-iphonesimulator/Zombies.app/Zombies
+xnormal
+xi386
+lSLF07#2@98"Link /Users/nathanholmberg/Projects/iPhone/Zombies/build/Debug-iphonesimulator/Zombies.app/Zombies320301639#320301640#0(0"0(0#0#0"8645646368#1152"    cd /Users/nathanholmberg/Projects/iPhone/Zombies    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/nathanholmberg/Projects/iPhone/Zombies/build/Debug-iphonesimulator -F/Users/nathanholmberg/Projects/iPhone/Zombies/build/Debug-iphonesimulator -filelist /Users/nathanholmberg/Projects/iPhone/Zombies/build/Zombies.build/Debug-iphonesimulator/Zombies.build/Objects-normal/i386/Zombies.LinkFileList -mmacosx-version-min=10.6 -all_load -ObjC -Xlinker -objc_abi_version -Xlinker 2 -framework CoreGraphics -framework Foundation -framework OpenGLES -framework QuartzCore -framework UIKit -framework AudioToolbox -framework OpenAL -lz -framework AVFoundation "-lcocos2d libraries" -o /Users/nathanholmberg/Projects/iPhone/Zombies/build/Debug-iphonesimulator/Zombies.app/Zombies0#
+
+CProcessInfoPlistFile /Users/nathanholmberg/Projects/iPhone/Zombies/build/Debug-iphonesimulator/Zombies.app/Info.plist Resources/Info.plist
+s320206636.916805
+e320206636.925268
+r1
+xProcessInfoPlistFile
+x/Users/nathanholmberg/Projects/iPhone/Zombies/build/Debug-iphonesimulator/Zombies.app/Info.plist
+xResources/Info.plist
+lSLF07#2@28"Process Resources/Info.plist320206636#320206636#0(0"0(0#0#66"/Users/nathanholmberg/Projects/iPhone/Zombies/Resources/Info.plist8608134656#564"    cd /Users/nathanholmberg/Projects/iPhone/Zombies    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-infoPlistUtility Resources/Info.plist -genpkginfo /Users/nathanholmberg/Projects/iPhone/Zombies/build/Debug-iphonesimulator/Zombies.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/nathanholmberg/Projects/iPhone/Zombies/build/Debug-iphonesimulator/Zombies.app/Info.plist0#
+
+CProcessPCH /var/folders/YG/YGw209t2FCiunLzYZ4FXG++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Zombies_Prefix-dsekzkclifwxtcdbdbikczxrzyaz/Zombies_Prefix.pch.gch Zombies_Prefix.pch normal i386 objective-c com.apple.compilers.llvmgcc42
+s320206636.942890
+e320206637.525329
+r1
+xProcessPCH
+x/var/folders/YG/YGw209t2FCiunLzYZ4FXG++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Zombies_Prefix-dsekzkclifwxtcdbdbikczxrzyaz/Zombies_Prefix.pch.gch
+xZombies_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@29"Precompile Zombies_Prefix.pch320206636#320206637#0(0"0(0#0#64"/Users/nathanholmberg/Projects/iPhone/Zombies/Zombies_Prefix.pch8590345632#2082"    cd /Users/nathanholmberg/Projects/iPhone/Zombies    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/nathanholmberg/Projects/iPhone/Zombies/build/Zombies.build/Debug-iphonesimulator/Zombies.build/Zombies-generated-files.hmap -I/Users/nathanholmberg/Projects/iPhone/Zombies/build/Zombies.build/Debug-iphonesimulator/Zombies.build/Zombies-own-target-headers.hmap -I/Users/nathanholmberg/Projects/iPhone/Zombies/build/Zombies.build/Debug-iphonesimulator/Zombies.build/Zombies-all-target-headers.hmap -iquote /Users/nathanholmberg/Projects/iPhone/Zombies/build/Zombies.build/Debug-iphonesimulator/Zombies.build/Zombies-project-headers.hmap -Wall -F/Users/nathanholmberg/Projects/iPhone/Zombies/build/Debug-iphonesimulator -I/Users/nathanholmberg/Projects/iPhone/Zombies/build/Debug-iphonesimulator/include -I/Users/nathanholmberg/Projects/iPhone/Zombies/build/Zombies.build/Debug-iphonesimulator/Zombies.build/DerivedSources/i386 -I/Users/nathanholmberg/Projects/iPhone/Zombies/build/Zombies.build/Debug-iphonesimulator/Zombies.build/DerivedSources -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -c /Users/nathanholmberg/Projects/iPhone/Zombies/Zombies_Prefix.pch -o /var/folders/YG/YGw209t2FCiunLzYZ4FXG++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Zombies_Prefix-dsekzkclifwxtcdbdbikczxrzyaz/Zombies_Prefix.pch.gch0#
+
+CTouch /Users/nathanholmberg/Projects/iPhone/Zombies/build/Debug-iphonesimulator/Zombies.app
+s320301640.315386
+e320301640.318047
+r1
+xTouch
+x/Users/nathanholmberg/Projects/iPhone/Zombies/build/Debug-iphonesimulator/Zombies.app
+lSLF07#2@91"Touch /Users/nathanholmberg/Projects/iPhone/Zombies/build/Debug-iphonesimulator/Zombies.app320301640#320301640#0(0"0(0#0#0"8646980096#354"    cd /Users/nathanholmberg/Projects/iPhone/Zombies    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/touch -c /Users/nathanholmberg/Projects/iPhone/Zombies/build/Debug-iphonesimulator/Zombies.app0#
+
