@@ -13,15 +13,18 @@
 @interface ZombieCollective : NSObject {
 	Board* mBoard;
 	
+	NSString* mZombieName;
+	
 	int mNumZombiesInitial;
 	int mNumZombiesPerTurn;
 	int mNumZombiesMaxPerPlayer;
+	int mNumAPPointsPerZombie;
 	
 	NSMutableArray* mZombies;
 	NSMutableArray* mZombieSpawnPoints;
 }
 
--(id)initOnBoard:(Board*) board withResource: (NSString*) resource;
+-(id)initOnBoard:(Board*) board withLevelResource: (NSString*) resource andZombieResource: (NSString*) zombie;
 
 
 -(void) spawnInitialZombies;

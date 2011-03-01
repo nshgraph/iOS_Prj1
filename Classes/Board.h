@@ -10,12 +10,18 @@
 
 #import "cocos2d.h"
 
+@class Actor;
+@class TileSet;
+
 @interface Board : NSObject {
 	CCSprite* mSprite;
 	
 	CGSize mDimensions;
 	CGSize mSizeOfPlayTile;
 	CGPoint mOffsetToFirstTile;
+	
+	TileSet* mTileSet;
+	NSLock *mTileSetLock;
 }
 
 @property (nonatomic,readonly) CGSize tileSize;
@@ -24,8 +30,16 @@
 
 -(CGPoint) getPositionOfSquareAt:(CGPoint) location;
 
+-(int)orientationTowardsCenterForTile: (CGPoint) tile;
+
 -(BOOL) isTileFree:(CGPoint) location;
 
 -(void) addToScene:(CCLayer*) scene;
+
+-(void) addActorToBoard:(Actor*) actor;
+
+-(void) removeActorFromBoard:(Actor*) actor;
+
+-(BOOL) requestActorMoveFrom:(CGPoint) from_point to:(CGPoint) to_point;
 
 @end

@@ -256,6 +256,7 @@
 		F8965C6513174DB500B14003 /* Actor_Zombie.m in Sources */ = {isa = PBXBuildFile; fileRef = F8965C6413174DB500B14003 /* Actor_Zombie.m */; };
 		F8965C6A1317549C00B14003 /* ZombieCollective.m in Sources */ = {isa = PBXBuildFile; fileRef = F8965C691317549C00B14003 /* ZombieCollective.m */; };
 		F8965C6E13175A6900B14003 /* ZombieUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = F8965C6D13175A6900B14003 /* ZombieUtils.m */; };
+		F8E0B941131C557F005ECD4A /* TileSet.m in Sources */ = {isa = PBXBuildFile; fileRef = F8E0B940131C557F005ECD4A /* TileSet.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -526,6 +527,8 @@
 		F8965C691317549C00B14003 /* ZombieCollective.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZombieCollective.m; sourceTree = "<group>"; };
 		F8965C6C13175A6900B14003 /* ZombieUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZombieUtils.h; sourceTree = "<group>"; };
 		F8965C6D13175A6900B14003 /* ZombieUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZombieUtils.m; sourceTree = "<group>"; };
+		F8E0B93F131C557F005ECD4A /* TileSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TileSet.h; sourceTree = "<group>"; };
+		F8E0B940131C557F005ECD4A /* TileSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TileSet.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -994,6 +997,8 @@
 			children = (
 				F836B28C1316054F0070C7C1 /* Board.h */,
 				F836B28D1316054F0070C7C1 /* Board.m */,
+				F8E0B93F131C557F005ECD4A /* TileSet.h */,
+				F8E0B940131C557F005ECD4A /* TileSet.m */,
 			);
 			name = Boards;
 			sourceTree = "<group>";
@@ -1239,6 +1244,7 @@
 				F8965C6513174DB500B14003 /* Actor_Zombie.m in Sources */,
 				F8965C6A1317549C00B14003 /* ZombieCollective.m in Sources */,
 				F8965C6E13175A6900B14003 /* ZombieUtils.m in Sources */,
+				F8E0B941131C557F005ECD4A /* TileSet.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

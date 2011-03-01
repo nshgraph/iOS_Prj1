@@ -19,6 +19,8 @@
 BOOL mbIsMoving;
 
 @synthesize orientation = mOrientation;
+@synthesize position = mPosition;
+@synthesize node = mSprite;
 
 -(id)initOnTile:(CGPoint) tile onBoard:(Board*) board andResource: (NSString*) resource
 {
@@ -33,9 +35,11 @@ BOOL mbIsMoving;
 		mOrientation = 0;
 		
 		mbIsMoving = false;
-		mSprite = [CCSprite spriteWithFile:[resource stringByAppendingString: @".png"]];
+		mSprite = [[CCSprite spriteWithFile:[resource stringByAppendingString: @".png"]] retain];
 		mSprite.position = [mBoard getPositionOfSquareAt: mPosition];
 		mSprite.scale = mBoard.tileSize.width / mSprite.textureRect.size.width;
+		
+		[mBoard addActorToBoard: self];
 		
 		return self;
 	}
@@ -44,6 +48,7 @@ BOOL mbIsMoving;
 
 -(void) dealloc
 {
+	[mSprite release];
 	[mBoard release];
 	[super dealloc];
 }
@@ -53,11 +58,6 @@ BOOL mbIsMoving;
 	mOrientation = (orientation % 4);
 	if( mSprite )
 		mSprite.rotation = mOrientation * 90;
-}
-
--(void) addToScene:(CCLayer*) scene
-{
-	[scene addChild: mSprite];
 }
 
 -(void) relocateToTile:(CGPoint) tile
@@ -74,6 +74,10 @@ BOOL mbIsMoving;
 {
 	// can't move if already moving
 	if( mbIsMoving )
+		return;
+	
+	// can't move if the board says I can't!
+	if( ![mBoard requestActorMoveFrom: mPosition to: tile] )
 		return;
 	
 	mbIsMoving = true;

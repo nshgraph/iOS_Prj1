@@ -22,10 +22,10 @@
 	Board* mBoard;
 }
 @property(nonatomic,readwrite) int orientation;
+@property(nonatomic,readonly) CGPoint position;
+@property(nonatomic,readonly) CCNode* node;
 
 -(id)initOnTile:(CGPoint) tile onBoard:(Board*) board andResource: (NSString*) resource;
-
--(void) addToScene:(CCLayer*) scene;
 
 -(void) relocateToTile:(CGPoint) tile;
 

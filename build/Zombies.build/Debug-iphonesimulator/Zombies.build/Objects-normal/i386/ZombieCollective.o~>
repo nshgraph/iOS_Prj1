@@ -1,7 +1,0 @@
-/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/ZombieCollective.m: In function '-[ZombieCollective initOnBoard:withResource:]':
-/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/ZombieCollective.m:22: error: 'mBoard' undeclared (first use in this function)
-/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/ZombieCollective.m:22: error: (Each undeclared identifier is reported only once
-/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/ZombieCollective.m:22: error: for each function it appears in.)
-/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/ZombieCollective.m: At top level:
-/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/ZombieCollective.m:93: warning: incomplete implementation of class 'ZombieCollective'
-/Users/nathanholmberg/Projects/iPhone/Zombies/Classes/ZombieCollective.m:93: warning: method definition for '-spawnNewTurnZombies' not found

@@ -15,6 +15,16 @@
 
 @synthesize apPerTurn = mAPPerTurn;
 
+-(id)initOnTile:(CGPoint) tile onBoard:(Board*) board andResource: (NSString*) resource
+{
+	self = [super initOnTile:tile onBoard:board andResource:resource];
+	if( self )
+	{
+		self.orientation = [board orientationTowardsCenterForTile: tile];
+	}
+	
+	return self;
+}
 
 -(void) doTurnWithTargetLocations:(NSArray*)targetLocations
 {

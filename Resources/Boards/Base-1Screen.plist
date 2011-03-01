@@ -24,21 +24,23 @@
 	<key>ZombieSpawnPoints</key>
 	<array>
 		<array>
-			<string>(8,0)</string>
-			<string>(8,1)</string>
-			<string>(8,2)</string>
-			<string>(8,3)</string>
-			<string>(8,4)</string>
-			<string>(8,5)</string>
-			<string>(8,6)</string>
-			<string>(8,7)</string>
+			<string>(0,8)</string>
+			<string>(1,8)</string>
+			<string>(2,8)</string>
+			<string>(3,8)</string>
+			<string>(4,8)</string>
+			<string>(5,8)</string>
+			<string>(6,8)</string>
+			<string>(7,8)</string>
 			<string>(8,8)</string>
-			<string>(8,9)</string>
-			<string>(8,10)</string>
-			<string>(8,11)</string>
-			<string>(8,12)</string>
-			<string>(8,13)</string>
+			<string>(9,8)</string>
+			<string>(10,8)</string>
+			<string>(11,8)</string>
+			<string>(12,8)</string>
+			<string>(13,8)</string>
 		</array>
 	</array>
+	<key>APPointsPerZombie</key>
+	<integer>2</integer>
 </dict>
 </plist>

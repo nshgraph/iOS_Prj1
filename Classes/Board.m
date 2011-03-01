@@ -8,6 +8,9 @@
 
 #import "Board.h"
 
+#import "Actor.h"
+#import "TileSet.h"
+
 #import "ZombieUtils.h"
 
 @implementation Board
@@ -19,7 +22,7 @@
 	self = [super init];
 	if( self )
 	{
-		mSprite = [CCSprite spriteWithFile:[resource stringByAppendingString: @".png"] rect: CGRectMake(0,0,size.x,size.y)];
+		mSprite = [[CCSprite spriteWithFile:[resource stringByAppendingString: @".png"] rect: CGRectMake(0,0,size.x,size.y)] retain];
 		mSprite.position = ccp(size.x/2,size.y/2);
 		
 		NSString *path = [CCFileUtils fullPathFromRelativePath:[resource stringByAppendingString: @".plist"]];
@@ -32,15 +35,30 @@
 			mSizeOfPlayTile = CGSizeMake( temp.x, temp.y );
 			temp = [ZombieUtils parseSettingIntoCGPoint: [dict valueForKey:@"OffsetToFirstPlayTile"] ];
 			mOffsetToFirstTile = temp;
+			// find a list of all the non-free tiles
+			
 		}
 		else {
 			mDimensions = CGSizeMake(0, 0);
 			mSizeOfPlayTile = CGSizeMake(32, 32);
 			mOffsetToFirstTile = CGPointMake( 0, 0 );
 		}
+		
+		mTileSet = [[TileSet alloc] initWithDimensions:mDimensions];
+		mTileSetLock = [[NSLock alloc] init];
+		
+		
 
 	}
 	return self;
+}
+
+-(void) dealloc
+{
+	[mSprite release];
+	[mTileSet release];
+	[mTileSetLock release];
+	[super dealloc];
 }
 
 -(CGPoint) getPositionOfSquareAt:(CGPoint) location
@@ -58,14 +76,77 @@
 					   mOffsetToFirstTile.y + mSizeOfPlayTile.height*location.y );
 }
 
+-(int)orientationTowardsCenterForTile: (CGPoint) tile
+{
+	int xDist = tile.x - mDimensions.width/2;
+	int yDist = tile.y - mDimensions.height/2;
+	if( abs(yDist) > abs(xDist) )
+	{
+		return ( yDist < 0 ) ? 0 : 2;
+	}
+	else {
+		return ( xDist < 0 ) ? 1 : 3;
+	}
+
+}
+
 -(BOOL) isTileFree:(CGPoint) location
 {
-	return YES;
+	BOOL result = YES;
+	[mTileSetLock lock];
+	
+	result = [mTileSet isTileFree: location];
+	
+	[mTileSetLock unlock];
+	return result;
 }
 
 -(void) addToScene:(CCLayer*) scene
 {
 	[scene addChild: mSprite];
+}
+
+-(void) addActorToBoard:(Actor*) actor
+{
+	[mSprite addChild: actor.node];
+	
+	[mTileSetLock lock];
+	
+	[mTileSet obtainTile: actor.position];
+	
+	[mTileSetLock unlock];
+}
+
+
+-(void) removeActorFromBoard:(Actor*) actor
+{
+	[mSprite removeChild: actor.node cleanup:YES];
+	
+	[mTileSetLock lock];
+	
+	[mTileSet freeTile: actor.position];
+	
+	[mTileSetLock unlock];
+}
+
+-(BOOL) requestActorMoveFrom:(CGPoint) from_point to:(CGPoint) to_point
+{
+	BOOL result = NO;
+	
+	[mTileSetLock lock];
+	
+	if( [mTileSet isTileFree: to_point] )
+	{
+		// free the old position
+		[mTileSet freeTile: from_point];
+		// and make the to_point unavailable
+		[mTileSet obtainTile: to_point];
+		result = YES;
+	}
+	
+	[mTileSetLock unlock];
+	
+	return result;
 }
 
 @end

@@ -12,16 +12,21 @@
 
 @class Actor;
 @class Board;
+@class ZombieCollective;
 
 // HelloWorld Layer
 @interface ZombieWorld : CCLayer
 {
+	// The board to be played on
 	Board* mBoard;
 	
-	
+	// information related to the players
 	int mMaxPlayers;
 	NSMutableArray* mPlayers;
 	NSMutableArray* mPlayerSpawnPoints;
+	
+	// information related to the zombies
+	ZombieCollective* mZombies;
 }
 
 // returns a Scene that contains the HelloWorld as the only child

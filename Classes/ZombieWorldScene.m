@@ -13,6 +13,7 @@
 
 #import "Actor_Player.h"
 #import "Board.h"
+#import "ZombieCollective.h"
 
 // ZombieWorld implementation
 @implementation ZombieWorld
@@ -81,10 +82,11 @@
 		{
 			CGPoint spawn_point = [[mPlayerSpawnPoints objectAtIndex: i] CGPointValue];
 			Actor* actor = [[[Actor_Player alloc] initOnTile: spawn_point onBoard: mBoard andResource: [NSString stringWithFormat:@"Player%i",(i+1)]] autorelease];
-			[actor addToScene: self];
 			[mPlayers addObject: actor];
 		}
 		
+		mZombies = [[ZombieCollective alloc] initOnBoard: mBoard withLevelResource: level_name andZombieResource:@"Zombie"];
+		[mZombies spawnInitialZombies];
 		
 	}
 	return self;
@@ -102,6 +104,8 @@
 	[mPlayers release];
 	
 	[mPlayerSpawnPoints release];
+	
+	[mZombies release];
 	
 	// don't forget to call "super dealloc"
 	[super dealloc];

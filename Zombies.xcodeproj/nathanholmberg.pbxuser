@@ -16,14 +16,13 @@
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
 		activeBuildConfigurationName = Debug;
 		activeExecutable = F836B1DA1315F71F0070C7C1 /* Zombies */;
-		activeSDKPreference = iphoneos4.2;
+		activeSDKPreference = iphonesimulator4.2;
 		activeTarget = 1D6058900D05DD3D006BFB54 /* Zombies */;
 		addToTargets = (
 			1D6058900D05DD3D006BFB54 /* Zombies */,
 		);
 		breakpoints = (
-			F8F9455D1317120000A75DE0 /* Actor_Player.m:83 */,
-			F8965CCB13175F9500B14003 /* Actor_Player.m:19 */,
+			F8437468131C672200BDD2B9 /* Board.m:83 */,
 		);
 		codeSenseManager = F836B20E1315F72E0070C7C1 /* Code sense */;
 		executables = (
@@ -52,31 +51,31 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 320294194;
-			PBXWorkspaceStateSaveDate = 320294194;
+			PBXPerProjectTemplateStateSaveDate = 320641347;
+			PBXWorkspaceStateSaveDate = 320641347;
 		};
 		perUserProjectItems = {
-			F8965CA913175F4F00B14003 /* PBXTextBookmark */ = F8965CA913175F4F00B14003 /* PBXTextBookmark */;
-			F8965CAC13175F4F00B14003 /* PBXTextBookmark */ = F8965CAC13175F4F00B14003 /* PBXTextBookmark */;
-			F8965CAF13175F4F00B14003 /* PBXTextBookmark */ = F8965CAF13175F4F00B14003 /* PBXTextBookmark */;
-			F8965CB113175F4F00B14003 /* PBXTextBookmark */ = F8965CB113175F4F00B14003 /* PBXTextBookmark */;
-			F8965CB413175F4F00B14003 /* PBXTextBookmark */ = F8965CB413175F4F00B14003 /* PBXTextBookmark */;
-			F8965CB513175F4F00B14003 /* PBXTextBookmark */ = F8965CB513175F4F00B14003 /* PBXTextBookmark */;
-			F8965CB713175F4F00B14003 /* PBXTextBookmark */ = F8965CB713175F4F00B14003 /* PBXTextBookmark */;
-			F8965CD413175FD500B14003 /* PBXTextBookmark */ = F8965CD413175FD500B14003 /* PBXTextBookmark */;
-			F8965D201317697D00B14003 /* PlistBookmark */ = F8965D201317697D00B14003 /* PlistBookmark */;
-			F8965D211317697D00B14003 /* PBXTextBookmark */ = F8965D211317697D00B14003 /* PBXTextBookmark */;
-			F8965D231317697D00B14003 /* PBXTextBookmark */ = F8965D231317697D00B14003 /* PBXTextBookmark */;
-			F8965D251317697D00B14003 /* PBXTextBookmark */ = F8965D251317697D00B14003 /* PBXTextBookmark */;
-			F8965D271317697D00B14003 /* PBXTextBookmark */ = F8965D271317697D00B14003 /* PBXTextBookmark */;
-			F8965D291317697D00B14003 /* PBXTextBookmark */ = F8965D291317697D00B14003 /* PBXTextBookmark */;
-			F8965D2A1317697D00B14003 /* PBXTextBookmark */ = F8965D2A1317697D00B14003 /* PBXTextBookmark */;
-			F8965D2B1317697D00B14003 /* PBXTextBookmark */ = F8965D2B1317697D00B14003 /* PBXTextBookmark */;
-			F8965D3013176A4800B14003 /* PBXTextBookmark */ = F8965D3013176A4800B14003 /* PBXTextBookmark */;
-			F8965D3113176A4800B14003 /* PBXTextBookmark */ = F8965D3113176A4800B14003 /* PBXTextBookmark */;
-			F8965D37131788CC00B14003 /* PBXTextBookmark */ = F8965D37131788CC00B14003 /* PBXTextBookmark */;
-			F8965D38131788CC00B14003 /* PBXTextBookmark */ = F8965D38131788CC00B14003 /* PBXTextBookmark */;
-			F8965D39131788CC00B14003 /* PBXTextBookmark */ = F8965D39131788CC00B14003 /* PBXTextBookmark */;
+			F843743A131C652000BDD2B9 = F843743A131C652000BDD2B9 /* PBXTextBookmark */;
+			F843743B131C652000BDD2B9 = F843743B131C652000BDD2B9 /* PBXTextBookmark */;
+			F8437460131C671C00BDD2B9 = F8437460131C671C00BDD2B9 /* PlistBookmark */;
+			F8437462131C671C00BDD2B9 = F8437462131C671C00BDD2B9 /* PBXTextBookmark */;
+			F8437463131C671C00BDD2B9 = F8437463131C671C00BDD2B9 /* PBXTextBookmark */;
+			F8437464131C671C00BDD2B9 = F8437464131C671C00BDD2B9 /* PBXTextBookmark */;
+			F8437465131C671C00BDD2B9 = F8437465131C671C00BDD2B9 /* PBXTextBookmark */;
+			F843746F131C672B00BDD2B9 = F843746F131C672B00BDD2B9 /* PBXTextBookmark */;
+			F8437470131C672B00BDD2B9 = F8437470131C672B00BDD2B9 /* PBXTextBookmark */;
+			F8437475131C676200BDD2B9 = F8437475131C676200BDD2B9 /* PBXTextBookmark */;
+			F8AA1E08131C61A800245950 = F8AA1E08131C61A800245950 /* PBXTextBookmark */;
+			F8AA1E1D131C621A00245950 = F8AA1E1D131C621A00245950 /* PBXTextBookmark */;
+			F8AA1E3D131C62E100245950 = F8AA1E3D131C62E100245950 /* PBXTextBookmark */;
+			F8E0B956131C5881005ECD4A = F8E0B956131C5881005ECD4A /* PBXTextBookmark */;
+			F8E0B95A131C5881005ECD4A = F8E0B95A131C5881005ECD4A /* PBXTextBookmark */;
+			F8E0B95D131C5881005ECD4A = F8E0B95D131C5881005ECD4A /* PBXTextBookmark */;
+			F8E0B95F131C5881005ECD4A = F8E0B95F131C5881005ECD4A /* PBXTextBookmark */;
+			F8E0B961131C5881005ECD4A = F8E0B961131C5881005ECD4A /* PBXTextBookmark */;
+			F8E0B963131C5881005ECD4A = F8E0B963131C5881005ECD4A /* PBXTextBookmark */;
+			F8E0B97B131C5EFC005ECD4A = F8E0B97B131C5EFC005ECD4A /* PBXTextBookmark */;
+			F8E0B98E131C606B005ECD4A = F8E0B98E131C606B005ECD4A /* PBXTextBookmark */;
 		};
 		sourceControlManager = F836B20D1315F72E0070C7C1 /* Source Control */;
 		userBuildSettings = {
@@ -84,16 +83,16 @@
 	};
 	506EDC2F102F528A00A389B3 /* ZombieWorldScene.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {727, 442}}";
-			sepNavSelRange = "{420, 0}";
-			sepNavVisRange = "{249, 338}";
+			sepNavIntBoundsRect = "{{0, 0}, {727, 507}}";
+			sepNavSelRange = "{582, 0}";
+			sepNavVisRange = "{309, 440}";
 		};
 	};
 	506EDC30102F528A00A389B3 /* ZombieWorldScene.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {824, 1430}}";
-			sepNavSelRange = "{664, 0}";
-			sepNavVisRange = "{1463, 572}";
+			sepNavIntBoundsRect = "{{0, 0}, {1153, 1547}}";
+			sepNavSelRange = "{2568, 0}";
+			sepNavVisRange = "{2064, 640}";
 		};
 	};
 	506EE05D10304ED200A389B3 /* cocos2d libraries */ = {
@@ -115,9 +114,9 @@
 	};
 	E02BB7A4126CC224006E46A2 /* CCNode.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {908, 11245}}";
-			sepNavSelRange = "{6591, 11}";
-			sepNavVisRange = "{6542, 381}";
+			sepNavIntBoundsRect = "{{0, 0}, {1019, 11427}}";
+			sepNavSelRange = "{9615, 0}";
+			sepNavVisRange = "{9379, 391}";
 		};
 	};
 	E02BB7AA126CC224006E46A2 /* CCParticleSystem.m */ = {
@@ -136,9 +135,9 @@
 	};
 	E02BB7BB126CC224006E46A2 /* CCSprite.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1019, 12753}}";
-			sepNavSelRange = "{2086, 25}";
-			sepNavVisRange = "{1909, 455}";
+			sepNavIntBoundsRect = "{{0, 0}, {1019, 12701}}";
+			sepNavSelRange = "{18869, 0}";
+			sepNavVisRange = "{18808, 575}";
 		};
 	};
 	E02BB7BE126CC224006E46A2 /* CCSpriteFrame.h */ = {
@@ -171,9 +170,9 @@
 	};
 	E02BB804126CC224006E46A2 /* CGPointExtension.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {727, 4355}}";
-			sepNavSelRange = "{5573, 0}";
-			sepNavVisRange = "{5308, 578}";
+			sepNavIntBoundsRect = "{{0, 0}, {1019, 4303}}";
+			sepNavSelRange = "{2486, 0}";
+			sepNavVisRange = "{2295, 291}";
 		};
 	};
 	E02BB805126CC224006E46A2 /* CGPointExtension.m */ = {
@@ -253,44 +252,44 @@
 	F836B21D1315FAD40070C7C1 /* Actor.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {727, 481}}";
-			sepNavSelRange = "{407, 0}";
-			sepNavVisRange = "{208, 419}";
+			sepNavSelRange = "{474, 89}";
+			sepNavVisRange = "{208, 433}";
 		};
 	};
 	F836B21E1315FAD40070C7C1 /* Actor.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {761, 1638}}";
-			sepNavSelRange = "{757, 0}";
-			sepNavVisRange = "{1271, 618}";
+			sepNavIntBoundsRect = "{{0, 0}, {727, 1703}}";
+			sepNavSelRange = "{346, 0}";
+			sepNavVisRange = "{489, 451}";
 		};
 	};
 	F836B2201315FAE00070C7C1 /* Actor_Player.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1019, 260}}";
+			sepNavIntBoundsRect = "{{0, 0}, {727, 274}}";
 			sepNavSelRange = "{281, 0}";
-			sepNavVisRange = "{37, 340}";
+			sepNavVisRange = "{0, 377}";
 		};
 	};
 	F836B2211315FAE00070C7C1 /* Actor_Player.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1019, 1508}}";
-			sepNavSelRange = "{438, 0}";
-			sepNavVisRange = "{219, 341}";
+			sepNavIntBoundsRect = "{{0, 0}, {733, 1469}}";
+			sepNavSelRange = "{282, 0}";
+			sepNavVisRange = "{144, 432}";
 		};
 	};
 	F836B28C1316054F0070C7C1 /* Board.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {727, 416}}";
-			sepNavSelRange = "{492, 39}";
-			sepNavVisRange = "{172, 399}";
+			sepNavIntBoundsRect = "{{0, 0}, {727, 611}}";
+			sepNavSelRange = "{284, 11}";
+			sepNavVisRange = "{172, 342}";
 			sepNavWindowFrame = "{{15, 83}, {684, 790}}";
 		};
 	};
 	F836B28D1316054F0070C7C1 /* Board.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {880, 871}}";
-			sepNavSelRange = "{1761, 0}";
-			sepNavVisRange = "{1356, 460}";
+			sepNavIntBoundsRect = "{{0, 0}, {1019, 2119}}";
+			sepNavSelRange = "{2153, 0}";
+			sepNavVisRange = "{2034, 300}";
 		};
 	};
 	F836B293131608AA0070C7C1 /* Base-1Screen.plist */ = {
@@ -298,32 +297,151 @@
 			sepNavWindowFrame = "{{15, 83}, {684, 790}}";
 		};
 	};
+	F843743A131C652000BDD2B9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F836B2211315FAE00070C7C1 /* Actor_Player.m */;
+		name = "Actor_Player.m: 17";
+		rLen = 0;
+		rLoc = 282;
+		rType = 0;
+		vrLen = 432;
+		vrLoc = 144;
+	};
+	F843743B131C652000BDD2B9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F836B21E1315FAD40070C7C1 /* Actor.m */;
+		name = "Actor.m: 22";
+		rLen = 0;
+		rLoc = 346;
+		rType = 0;
+		vrLen = 451;
+		vrLoc = 489;
+	};
+	F8437460131C671C00BDD2B9 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = F836B293131608AA0070C7C1 /* Base-1Screen.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			ZombieSpawnPoints,
+			0,
+			10,
+		);
+		name = "/Users/nathanholmberg/Projects/iPhone/Zombies/Resources/Boards/Base-1Screen.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	F8437462131C671C00BDD2B9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F836B21D1315FAD40070C7C1 /* Actor.h */;
+		name = "Actor.h: 27";
+		rLen = 89;
+		rLoc = 474;
+		rType = 0;
+		vrLen = 433;
+		vrLoc = 208;
+	};
+	F8437463131C671C00BDD2B9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F8965C6313174DB500B14003 /* Actor_Zombie.h */;
+		name = "Actor_Zombie.h: 19";
+		rLen = 0;
+		rLoc = 387;
+		rType = 0;
+		vrLen = 416;
+		vrLoc = 34;
+	};
+	F8437464131C671C00BDD2B9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F8965C6413174DB500B14003 /* Actor_Zombie.m */;
+		name = "Actor_Zombie.m: 23";
+		rLen = 45;
+		rLoc = 452;
+		rType = 0;
+		vrLen = 373;
+		vrLoc = 144;
+	};
+	F8437465131C671C00BDD2B9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F836B28C1316054F0070C7C1 /* Board.h */;
+		name = "Board.h: 19";
+		rLen = 11;
+		rLoc = 284;
+		rType = 0;
+		vrLen = 342;
+		vrLoc = 172;
+	};
+	F8437468131C672200BDD2B9 /* Board.m:83 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = F836B28D1316054F0070C7C1 /* Board.m */;
+		functionName = "-orientationTowardsCenterForTile:";
+		hitCount = 2;
+		ignoreCount = 0;
+		lineNumber = 83;
+		location = Zombies;
+		modificationTime = 320628544.898311;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	F843746F131C672B00BDD2B9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F836B28D1316054F0070C7C1 /* Board.m */;
+		name = "Board.m: 88";
+		rLen = 0;
+		rLoc = 2285;
+		rType = 0;
+		vrLen = 320;
+		vrLoc = 2034;
+	};
+	F8437470131C672B00BDD2B9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F8965C691317549C00B14003 /* ZombieCollective.m */;
+		rLen = 0;
+		rLoc = 82;
+		rType = 1;
+	};
+	F8437475131C676200BDD2B9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F8965C691317549C00B14003 /* ZombieCollective.m */;
+		name = "ZombieCollective.m: 83";
+		rLen = 0;
+		rLoc = 2453;
+		rType = 0;
+		vrLen = 660;
+		vrLoc = 2251;
+	};
 	F8965C6313174DB500B14003 /* Actor_Zombie.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {727, 286}}";
-			sepNavSelRange = "{307, 25}";
-			sepNavVisRange = "{0, 366}";
+			sepNavIntBoundsRect = "{{0, 0}, {727, 312}}";
+			sepNavSelRange = "{387, 0}";
+			sepNavVisRange = "{34, 416}";
 		};
 	};
 	F8965C6413174DB500B14003 /* Actor_Zombie.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {727, 325}}";
-			sepNavSelRange = "{291, 0}";
-			sepNavVisRange = "{81, 249}";
+			sepNavIntBoundsRect = "{{0, 0}, {727, 416}}";
+			sepNavSelRange = "{452, 45}";
+			sepNavVisRange = "{144, 373}";
 		};
 	};
 	F8965C681317549C00B14003 /* ZombieCollective.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {727, 403}}";
-			sepNavSelRange = "{246, 0}";
-			sepNavVisRange = "{0, 366}";
+			sepNavIntBoundsRect = "{{0, 0}, {782, 455}}";
+			sepNavSelRange = "{492, 17}";
+			sepNavVisRange = "{239, 427}";
 		};
 	};
 	F8965C691317549C00B14003 /* ZombieCollective.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {838, 1261}}";
-			sepNavSelRange = "{1742, 0}";
-			sepNavVisRange = "{1640, 385}";
+			sepNavIntBoundsRect = "{{0, 0}, {1019, 1651}}";
+			sepNavSelRange = "{2453, 0}";
+			sepNavVisRange = "{2251, 631}";
 		};
 	};
 	F8965C6C13175A6900B14003 /* ZombieUtils.h */ = {
@@ -337,285 +455,145 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {727, 377}}";
 			sepNavSelRange = "{579, 0}";
-			sepNavVisRange = "{142, 529}";
+			sepNavVisRange = "{139, 537}";
 		};
 	};
-	F8965CA913175F4F00B14003 /* PBXTextBookmark */ = {
+	F8AA1E08131C61A800245950 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = F8965CAA13175F4F00B14003 /* NSKeyValueCoding.h */;
-		name = "NSKeyValueCoding.h: 147";
-		rLen = 35;
-		rLoc = 20710;
-		rType = 0;
-		vrLen = 603;
-		vrLoc = 20388;
-	};
-	F8965CAA13175F4F00B14003 /* NSKeyValueCoding.h */ = {
-		isa = PBXFileReference;
-		name = NSKeyValueCoding.h;
-		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSKeyValueCoding.h;
-		sourceTree = "<absolute>";
-	};
-	F8965CAC13175F4F00B14003 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = F8965CAD13175F4F00B14003 /* NSData.h */;
-		name = "NSData.h: 51";
-		rLen = 69;
-		rLoc = 1676;
-		rType = 0;
-		vrLen = 1026;
-		vrLoc = 1582;
-	};
-	F8965CAD13175F4F00B14003 /* NSData.h */ = {
-		isa = PBXFileReference;
-		name = NSData.h;
-		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSData.h;
-		sourceTree = "<absolute>";
-	};
-	F8965CAF13175F4F00B14003 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = E02BB804126CC224006E46A2 /* CGPointExtension.h */;
-		name = "CGPointExtension.h: 242";
+		fRef = F8E0B93F131C557F005ECD4A /* TileSet.h */;
+		name = "TileSet.h: 16";
 		rLen = 0;
-		rLoc = 5573;
+		rLoc = 245;
 		rType = 0;
-		vrLen = 578;
-		vrLoc = 5308;
+		vrLen = 328;
+		vrLoc = 75;
 	};
-	F8965CB113175F4F00B14003 /* PBXTextBookmark */ = {
+	F8AA1E1D131C621A00245950 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F8E0B940131C557F005ECD4A /* TileSet.m */;
+		name = "TileSet.m: 22";
+		rLen = 0;
+		rLoc = 396;
+		rType = 0;
+		vrLen = 342;
+		vrLoc = 134;
+	};
+	F8AA1E3D131C62E100245950 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 506EDC30102F528A00A389B3 /* ZombieWorldScene.m */;
+		name = "ZombieWorldScene.m: 89";
+		rLen = 0;
+		rLoc = 2601;
+		rType = 0;
+		vrLen = 831;
+		vrLoc = 1873;
+	};
+	F8E0B93F131C557F005ECD4A /* TileSet.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1019, 338}}";
+			sepNavSelRange = "{214, 11}";
+			sepNavVisRange = "{29, 299}";
+		};
+	};
+	F8E0B940131C557F005ECD4A /* TileSet.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1019, 806}}";
+			sepNavSelRange = "{567, 0}";
+			sepNavVisRange = "{476, 321}";
+		};
+	};
+	F8E0B956131C5881005ECD4A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F836B2201315FAE00070C7C1 /* Actor_Player.h */;
+		name = "Actor_Player.h: 16";
+		rLen = 0;
+		rLoc = 281;
+		rType = 0;
+		vrLen = 377;
+		vrLoc = 0;
+	};
+	F8E0B95A131C5881005ECD4A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 506EDC2F102F528A00A389B3 /* ZombieWorldScene.h */;
+		name = "ZombieWorldScene.h: 29";
+		rLen = 0;
+		rLoc = 582;
+		rType = 0;
+		vrLen = 440;
+		vrLoc = 309;
+	};
+	F8E0B95D131C5881005ECD4A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E02BB7A4126CC224006E46A2 /* CCNode.m */;
+		name = "CCNode.m: 398";
+		rLen = 7;
+		rLoc = 9955;
+		rType = 0;
+		vrLen = 552;
+		vrLoc = 9816;
+	};
+	F8E0B95F131C5881005ECD4A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E02BB7BB126CC224006E46A2 /* CCSprite.m */;
+		name = "CCSprite.m: 95";
+		rLen = 58;
+		rLoc = 2921;
+		rType = 0;
+		vrLen = 568;
+		vrLoc = 2676;
+	};
+	F8E0B961131C5881005ECD4A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F8E0B962131C5881005ECD4A /* NSLock.h */;
+		name = "NSLock.h: 11";
+		rLen = 14;
+		rLoc = 145;
+		rType = 0;
+		vrLen = 311;
+		vrLoc = 0;
+	};
+	F8E0B962131C5881005ECD4A /* NSLock.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = NSLock.h;
+		path = /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSLock.h;
+		sourceTree = "<absolute>";
+	};
+	F8E0B963131C5881005ECD4A /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = F8965C6D13175A6900B14003 /* ZombieUtils.m */;
 		name = "ZombieUtils.m: 22";
 		rLen = 0;
 		rLoc = 579;
 		rType = 0;
-		vrLen = 529;
-		vrLoc = 142;
+		vrLen = 537;
+		vrLoc = 139;
 	};
-	F8965CB413175F4F00B14003 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 1F3B9A2B0EF2145700286867 /* ZombiesAppDelegate.m */;
-		name = "ZombiesAppDelegate.m: 113";
-		rLen = 0;
-		rLoc = 3422;
-		rType = 0;
-		vrLen = 592;
-		vrLoc = 3066;
-	};
-	F8965CB513175F4F00B14003 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = F8965CB613175F4F00B14003 /* NSArray.h */;
-		name = "NSArray.h: 112";
-		rLen = 36;
-		rLoc = 4998;
-		rType = 0;
-		vrLen = 503;
-		vrLoc = 4651;
-	};
-	F8965CB613175F4F00B14003 /* NSArray.h */ = {
-		isa = PBXFileReference;
-		name = NSArray.h;
-		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSArray.h;
-		sourceTree = "<absolute>";
-	};
-	F8965CB713175F4F00B14003 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = F8965CB813175F4F00B14003 /* UIGeometry.h */;
-		name = "UIGeometry.h: 49";
-		rLen = 46;
-		rLoc = 1840;
-		rType = 0;
-		vrLen = 784;
-		vrLoc = 1473;
-	};
-	F8965CB813175F4F00B14003 /* UIGeometry.h */ = {
-		isa = PBXFileReference;
-		name = UIGeometry.h;
-		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIGeometry.h;
-		sourceTree = "<absolute>";
-	};
-	F8965CCB13175F9500B14003 /* Actor_Player.m:19 */ = {
-		isa = PBXFileBreakpoint;
-		actions = (
-		);
-		breakpointStyle = 0;
-		continueAfterActions = 0;
-		countType = 0;
-		delayBeforeContinue = 0;
-		fileReference = F836B2211315FAE00070C7C1 /* Actor_Player.m */;
-		functionName = "-initOnTile:onBoard:andResource:";
-		hitCount = 1;
-		ignoreCount = 0;
-		lineNumber = 19;
-		location = Zombies;
-		modificationTime = 320298908.596091;
-		originalNumberOfMultipleMatches = 1;
-		state = 1;
-	};
-	F8965CD413175FD500B14003 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = E02BB7E7126CC224006E46A2 /* CCTouchDispatcher.m */;
-		name = "CCTouchDispatcher.m: 109";
-		rLen = 0;
-		rLoc = 3588;
-		rType = 0;
-		vrLen = 473;
-		vrLoc = 4017;
-	};
-	F8965D201317697D00B14003 /* PlistBookmark */ = {
-		isa = PlistBookmark;
-		fRef = F836B293131608AA0070C7C1 /* Base-1Screen.plist */;
-		fallbackIsa = PBXBookmark;
-		isK = 0;
-		kPath = (
-			ZombieSpawnPoints,
-		);
-		name = "/Users/nathanholmberg/Projects/iPhone/Zombies/Resources/Boards/Base-1Screen.plist";
-		rLen = 0;
-		rLoc = 9223372036854775807;
-	};
-	F8965D211317697D00B14003 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = F8965C6C13175A6900B14003 /* ZombieUtils.h */;
-		name = "ZombieUtils.h: 16";
-		rLen = 23;
-		rLoc = 230;
-		rType = 0;
-		vrLen = 281;
-		vrLoc = 0;
-	};
-	F8965D231317697D00B14003 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = F8965C6413174DB500B14003 /* Actor_Zombie.m */;
-		name = "Actor_Zombie.m: 19";
-		rLen = 0;
-		rLoc = 291;
-		rType = 0;
-		vrLen = 249;
-		vrLoc = 81;
-	};
-	F8965D251317697D00B14003 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = F8965D261317697D00B14003 /* stdlib.h */;
-		name = "stdlib.h: 176";
-		rLen = 17;
-		rLoc = 5825;
-		rType = 0;
-		vrLen = 823;
-		vrLoc = 5427;
-	};
-	F8965D261317697D00B14003 /* stdlib.h */ = {
-		isa = PBXFileReference;
-		name = stdlib.h;
-		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/stdlib.h;
-		sourceTree = "<absolute>";
-	};
-	F8965D271317697D00B14003 /* PBXTextBookmark */ = {
+	F8E0B97B131C5EFC005ECD4A /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = F8965C681317549C00B14003 /* ZombieCollective.h */;
-		name = "ZombieCollective.h: 14";
-		rLen = 0;
-		rLoc = 246;
-		rType = 0;
-		vrLen = 366;
-		vrLoc = 0;
-	};
-	F8965D291317697D00B14003 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = F836B2211315FAE00070C7C1 /* Actor_Player.m */;
-		name = "Actor_Player.m: 22";
-		rLen = 0;
-		rLoc = 438;
-		rType = 0;
-		vrLen = 559;
-		vrLoc = 2299;
-	};
-	F8965D2A1317697D00B14003 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = F836B21E1315FAD40070C7C1 /* Actor.m */;
-		name = "Actor.m: 38";
-		rLen = 0;
-		rLoc = 757;
-		rType = 0;
-		vrLen = 618;
-		vrLoc = 1271;
-	};
-	F8965D2B1317697D00B14003 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 506EDC2F102F528A00A389B3 /* ZombieWorldScene.h */;
-		name = "ZombieWorldScene.h: 24";
-		rLen = 0;
-		rLoc = 420;
-		rType = 0;
-		vrLen = 338;
-		vrLoc = 249;
-	};
-	F8965D3013176A4800B14003 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 506EDC30102F528A00A389B3 /* ZombieWorldScene.m */;
-		name = "ZombieWorldScene.m: 33";
-		rLen = 0;
-		rLoc = 664;
-		rType = 0;
-		vrLen = 572;
-		vrLoc = 1463;
-	};
-	F8965D3113176A4800B14003 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = F836B28C1316054F0070C7C1 /* Board.h */;
-		name = "Board.h: 26";
-		rLen = 39;
+		name = "ZombieCollective.h: 27";
+		rLen = 17;
 		rLoc = 492;
 		rType = 0;
-		vrLen = 399;
-		vrLoc = 172;
+		vrLen = 427;
+		vrLoc = 239;
 	};
-	F8965D37131788CC00B14003 /* PBXTextBookmark */ = {
+	F8E0B98E131C606B005ECD4A /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = F836B28D1316054F0070C7C1 /* Board.m */;
-		name = "Board.m: 62";
-		rLen = 0;
-		rLoc = 1761;
+		fRef = F8E0B98F131C606B005ECD4A /* string.h */;
+		name = "string.h: 85";
+		rLen = 35;
+		rLoc = 3458;
 		rType = 0;
-		vrLen = 460;
-		vrLoc = 1356;
+		vrLen = 653;
+		vrLoc = 3069;
 	};
-	F8965D38131788CC00B14003 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = F8965C691317549C00B14003 /* ZombieCollective.m */;
-		name = "ZombieCollective.m: 65";
-		rLen = 0;
-		rLoc = 1740;
-		rType = 0;
-		vrLen = 355;
-		vrLoc = 1619;
-	};
-	F8965D39131788CC00B14003 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = F8965C691317549C00B14003 /* ZombieCollective.m */;
-		name = "ZombieCollective.m: 66";
-		rLen = 0;
-		rLoc = 1742;
-		rType = 0;
-		vrLen = 385;
-		vrLoc = 1640;
-	};
-	F8F9455D1317120000A75DE0 /* Actor_Player.m:83 */ = {
-		isa = PBXFileBreakpoint;
-		actions = (
-		);
-		breakpointStyle = 0;
-		continueAfterActions = 0;
-		countType = 0;
-		delayBeforeContinue = 0;
-		fileReference = F836B2211315FAE00070C7C1 /* Actor_Player.m */;
-		functionName = "-ccTouchEnded:withEvent:";
-		hitCount = 0;
-		ignoreCount = 0;
-		lineNumber = 83;
-		location = Zombies;
-		modificationTime = 320298903.161947;
-		originalNumberOfMultipleMatches = 1;
-		state = 1;
+	F8E0B98F131C606B005ECD4A /* string.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = string.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/string.h;
+		sourceTree = "<absolute>";
 	};
 }

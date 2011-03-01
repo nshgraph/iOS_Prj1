@@ -16,6 +16,8 @@
 
 @property(nonatomic,readwrite) int apPerTurn;
 
+-(id)initOnTile:(CGPoint) tile onBoard:(Board*) board andResource: (NSString*) resource;
+
 -(void) doTurnWithTargetLocations:(NSArray*)targetLocations;
 
 @end
