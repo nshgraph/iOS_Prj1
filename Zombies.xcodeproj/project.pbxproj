@@ -255,6 +255,8 @@
 		F836B28A131605310070C7C1 /* Base-1Screen.png in Resources */ = {isa = PBXBuildFile; fileRef = F836B289131605310070C7C1 /* Base-1Screen.png */; };
 		F836B28E1316054F0070C7C1 /* Board.m in Sources */ = {isa = PBXBuildFile; fileRef = F836B28D1316054F0070C7C1 /* Board.m */; };
 		F836B294131608AA0070C7C1 /* Base-1Screen.plist in Resources */ = {isa = PBXBuildFile; fileRef = F836B293131608AA0070C7C1 /* Base-1Screen.plist */; };
+		F888C5081324925D003BABA3 /* Base-2Screen.plist in Resources */ = {isa = PBXBuildFile; fileRef = F888C5061324925D003BABA3 /* Base-2Screen.plist */; };
+		F888C5091324925D003BABA3 /* Base-2Screen.png in Resources */ = {isa = PBXBuildFile; fileRef = F888C5071324925D003BABA3 /* Base-2Screen.png */; };
 		F8965C6513174DB500B14003 /* Actor_Zombie.m in Sources */ = {isa = PBXBuildFile; fileRef = F8965C6413174DB500B14003 /* Actor_Zombie.m */; };
 		F8965C6A1317549C00B14003 /* ZombieCollective.m in Sources */ = {isa = PBXBuildFile; fileRef = F8965C691317549C00B14003 /* ZombieCollective.m */; };
 		F8965C6E13175A6900B14003 /* ZombieUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = F8965C6D13175A6900B14003 /* ZombieUtils.m */; };
@@ -525,6 +527,8 @@
 		F836B28C1316054F0070C7C1 /* Board.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Board.h; sourceTree = "<group>"; };
 		F836B28D1316054F0070C7C1 /* Board.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Board.m; sourceTree = "<group>"; };
 		F836B293131608AA0070C7C1 /* Base-1Screen.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Base-1Screen.plist"; path = "Boards/Base-1Screen.plist"; sourceTree = "<group>"; };
+		F888C5061324925D003BABA3 /* Base-2Screen.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Base-2Screen.plist"; path = "Boards/Base-2Screen.plist"; sourceTree = "<group>"; };
+		F888C5071324925D003BABA3 /* Base-2Screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Base-2Screen.png"; path = "Boards/Base-2Screen.png"; sourceTree = "<group>"; };
 		F8965C6313174DB500B14003 /* Actor_Zombie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Actor_Zombie.h; sourceTree = "<group>"; };
 		F8965C6413174DB500B14003 /* Actor_Zombie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Actor_Zombie.m; sourceTree = "<group>"; };
 		F8965C681317549C00B14003 /* ZombieCollective.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZombieCollective.h; sourceTree = "<group>"; };
@@ -1002,6 +1006,8 @@
 			children = (
 				F836B289131605310070C7C1 /* Base-1Screen.png */,
 				F836B293131608AA0070C7C1 /* Base-1Screen.plist */,
+				F888C5061324925D003BABA3 /* Base-2Screen.plist */,
+				F888C5071324925D003BABA3 /* Base-2Screen.png */,
 			);
 			name = Scenes;
 			sourceTree = "<group>";
@@ -1239,6 +1245,8 @@
 				F836B2771315FF880070C7C1 /* Zombie.png in Resources */,
 				F836B28A131605310070C7C1 /* Base-1Screen.png in Resources */,
 				F836B294131608AA0070C7C1 /* Base-1Screen.plist in Resources */,
+				F888C5081324925D003BABA3 /* Base-2Screen.plist in Resources */,
+				F888C5091324925D003BABA3 /* Base-2Screen.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -24,7 +24,7 @@
 	CCScene *scene = [CCScene node];
 	
 	// 'layer' is an autorelease object.
-	ZombieWorld *layer = [[[ZombieWorld alloc] initWithLevel: @"Base-1Screen" andNumPlayers: 2] autorelease];
+	ZombieWorld *layer = [[[ZombieWorld alloc] initWithLevel: @"Base-2Screen" andNumPlayers: 2] autorelease];
 	
 	// add layer as a child to scene
 	[scene addChild: layer];

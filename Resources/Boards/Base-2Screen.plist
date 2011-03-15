@@ -34,6 +34,21 @@
 				<real>0.0</real>
 				<real>0.0</real>
 				<real>0.0</real>
+				<real>1</real>
+				<real>0.0</real>
+				<real>1</real>
+				<real>0.0</real>
+				<real>0.0</real>
+				<real>0.0</real>
+			</array>
+			<array>
+				<real>0.0</real>
+				<real>0.0</real>
+				<real>1</real>
+				<real>0.0</real>
+				<real>1</real>
+				<real>0.0</real>
+				<real>0.0</real>
 				<real>0.0</real>
 				<real>0.0</real>
 				<real>0.0</real>
@@ -57,34 +72,34 @@
 				<real>0.0</real>
 			</array>
 			<array>
+				<real>1</real>
+				<real>1</real>
 				<real>0.0</real>
 				<real>0.0</real>
 				<real>0.0</real>
 				<real>0.0</real>
 				<real>0.0</real>
 				<real>0.0</real>
+				<real>1</real>
+				<real>1</real>
 				<real>0.0</real>
 				<real>0.0</real>
-				<real>0.0</real>
-				<real>0.0</real>
-				<real>0.0</real>
-				<real>0.0</real>
-				<real>0.0</real>
+				<real>1</real>
 			</array>
 			<array>
 				<real>0.0</real>
+				<real>1</real>
+				<real>0.0</real>
+				<real>1</real>
+				<real>1</real>
 				<real>0.0</real>
 				<real>0.0</real>
 				<real>0.0</real>
+				<real>1</real>
+				<real>1</real>
 				<real>0.0</real>
-				<real>0.0</real>
-				<real>0.0</real>
-				<real>0.0</real>
-				<real>0.0</real>
-				<real>0.0</real>
-				<real>0.0</real>
-				<real>0.0</real>
-				<real>0.0</real>
+				<real>1</real>
+				<real>1</real>
 			</array>
 			<array>
 				<real>0.0</real>
@@ -127,15 +142,6 @@
 				<real>0.0</real>
 				<real>0.0</real>
 				<real>0.0</real>
-			</array>
-			<array>
-				<real>0.0</real>
-				<real>0.0</real>
-				<real>0.0</real>
-				<real>0.0</real>
-				<real>0.0</real>
-				<real>0.0</real>
-				<real>0.0</real>
 				<real>0.0</real>
 			</array>
 			<array>
@@ -144,21 +150,13 @@
 				<real>0.0</real>
 				<real>0.0</real>
 				<real>0.0</real>
-				<real>0.0</real>
-				<real>0.0</real>
-				<real>0.0</real>
-			</array>
-			<array>
-				<real>0.0</real>
-				<real>0.0</real>
-				<real>0.0</real>
-				<real>0.0</real>
-				<real>0.0</real>
-				<real>0.0</real>
+				<real>1</real>
+				<real>1</real>
 				<real>0.0</real>
 				<real>0.0</real>
 			</array>
 			<array>
+				<real>0.0</real>
 				<real>0.0</real>
 				<real>0.0</real>
 				<real>0.0</real>
@@ -174,21 +172,13 @@
 				<real>0.0</real>
 				<real>0.0</real>
 				<real>0.0</real>
-				<real>0.0</real>
-				<real>0.0</real>
-				<real>0.0</real>
-			</array>
-			<array>
-				<real>0.0</real>
-				<real>0.0</real>
-				<real>0.0</real>
-				<real>0.0</real>
-				<real>0.0</real>
-				<real>0.0</real>
+				<real>1</real>
+				<real>1</real>
 				<real>0.0</real>
 				<real>0.0</real>
 			</array>
 			<array>
+				<real>0.0</real>
 				<real>0.0</real>
 				<real>0.0</real>
 				<real>0.0</real>
@@ -204,6 +194,7 @@
 				<real>0.0</real>
 				<real>0.0</real>
 				<real>0.0</real>
+				<real>1</real>
 				<real>0.0</real>
 				<real>0.0</real>
 				<real>0.0</real>
@@ -217,6 +208,40 @@
 				<real>0.0</real>
 				<real>0.0</real>
 				<real>0.0</real>
+				<real>0.0</real>
+			</array>
+			<array>
+				<real>0.0</real>
+				<real>1</real>
+				<real>1</real>
+				<real>0.0</real>
+				<real>0.0</real>
+				<real>0.0</real>
+				<real>0.0</real>
+				<real>0.0</real>
+				<real>0.0</real>
+			</array>
+			<array>
+				<real>0.0</real>
+				<real>1</real>
+				<real>0.0</real>
+				<real>0.0</real>
+				<real>0.0</real>
+				<real>0.0</real>
+				<real>0.0</real>
+				<real>0.0</real>
+				<real>0.0</real>
+			</array>
+			<array>
+				<real>0.0</real>
+				<real>0.0</real>
+				<real>1</real>
+				<real>0.0</real>
+				<real>0.0</real>
+				<real>1</real>
+				<real>0.0</real>
+				<real>0.0</real>
+				<real>0.0</real>
 			</array>
 			<array>
 				<real>0.0</real>
@@ -227,8 +252,10 @@
 				<real>0.0</real>
 				<real>0.0</real>
 				<real>0.0</real>
+				<real>0.0</real>
 			</array>
 			<array>
+				<real>0.0</real>
 				<real>0.0</real>
 				<real>0.0</real>
 				<real>0.0</real>
@@ -241,26 +268,26 @@
 		</array>
 	</array>
 	<key>LevelName</key>
-	<string>Simple</string>
+	<string>RedBox</string>
 	<key>MaxPlayers</key>
 	<integer>2</integer>
 	<key>MaxZombiesPerPlayer</key>
 	<integer>4</integer>
 	<key>NumberOfPlayTiles</key>
-	<string>(13.000000,8.000000)</string>
+	<string>(13.000000,9.000000)</string>
 	<key>NumberOfZombiesInitial</key>
 	<integer>2</integer>
 	<key>NumberOfZombiesPerTurn</key>
 	<integer>2</integer>
 	<key>OffsetToFirstPlayTile</key>
-	<string>(34,57)</string>
+	<string>(24,31)</string>
 	<key>PlayerSpawnPoints</key>
 	<array>
 		<string>(3,0)</string>
-		<string>(7,0)</string>
+		<string>(9,0)</string>
 	</array>
 	<key>SizeOfPlayTile</key>
-	<string>(35.000000,35.000000)</string>
+	<string>(36.000000,36.000000)</string>
 	<key>ZombieSpawnPoints</key>
 	<array>
 		<array>
@@ -285,6 +312,29 @@
 			<string>(5,7)</string>
 			<string>(6,7)</string>
 			<string>(7,7)</string>
+			<string>(0,8)</string>
+			<string>(1,8)</string>
+			<string>(2,8)</string>
+			<string>(3,8)</string>
+			<string>(4,8)</string>
+			<string>(5,8)</string>
+			<string>(6,8)</string>
+			<string>(7,8)</string>
+			<string>(8,8)</string>
+			<string>(10,8)</string>
+			<string>(11,8)</string>
+			<string>(12,8)</string>
+			<string>(1,8)</string>
+			<string>(2,8)</string>
+			<string>(3,8)</string>
+			<string>(4,8)</string>
+			<string>(9,8)</string>
+		</array>
+		<array>
+			<string>(12,8)</string>
+			<string>(11,8)</string>
+			<string>(10,8)</string>
+			<string>(9,8)</string>
 		</array>
 	</array>
 </dict>

@@ -13,13 +13,13 @@
 
 +(CGPoint) parseSettingIntoCGPoint:(NSString*) setting
 {
-	int x, y;
+	float x, y;
 	NSCharacterSet *charset = [NSCharacterSet characterSetWithCharactersInString:@"(,)"];
 	NSScanner* scanner = [NSScanner scannerWithString:setting];
 	[scanner scanCharactersFromSet: charset intoString: NULL];
-	[scanner scanInt:&x];
+	[scanner scanFloat:&x];
 	[scanner scanCharactersFromSet: charset intoString: NULL];
-	[scanner scanInt:&y];
+	[scanner scanFloat:&y];
 	[scanner scanCharactersFromSet: charset intoString: NULL];
 	
 	return CGPointMake(x,y);
