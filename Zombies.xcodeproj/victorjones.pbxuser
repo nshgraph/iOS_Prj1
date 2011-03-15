@@ -1,0 +1,718 @@
+// !$*UTF8*$!
+{
+	1D6058900D05DD3D006BFB54 /* Zombies */ = {
+		activeExec = 0;
+		executables = (
+			A0280CF0131CA025009E44C9 /* Zombies */,
+		);
+	};
+	1F3B9A2B0EF2145700286867 /* ZombiesAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1095, 2080}}";
+			sepNavSelRange = "{1592, 0}";
+			sepNavVisRange = "{3656, 832}";
+		};
+	};
+	1F3B9A2C0EF2145700286867 /* ZombiesAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1095, 473}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 385}";
+		};
+	};
+	1F3B9A820EF2151B00286867 /* Zombies_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1095, 473}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 177}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = A0280CF0131CA025009E44C9 /* Zombies */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* Zombies */;
+		addToTargets = (
+			506EE05D10304ED200A389B3 /* cocos2d libraries */,
+			1D6058900D05DD3D006BFB54 /* Zombies */,
+		);
+		breakpoints = (
+			A05045B4133014040063EC80 /* TurnManager.m:73 */,
+		);
+		codeSenseManager = A0280D0C131CA03E009E44C9 /* Code sense */;
+		executables = (
+			A0280CF0131CA025009E44C9 /* Zombies */,
+		);
+		perUserDictionary = {
+			"PBXConfiguration.PBXBreakpointsDataSource.v1:1CA23EDF0692099D00951B8B" = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBreakpointsDataSource_BreakpointID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					350,
+					20,
+					249,
+					249,
+					179,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBreakpointsDataSource_ActionID,
+					PBXBreakpointsDataSource_TypeID,
+					PBXBreakpointsDataSource_BreakpointID,
+					PBXBreakpointsDataSource_UseID,
+					PBXBreakpointsDataSource_LocationID,
+					PBXBreakpointsDataSource_ConditionID,
+					PBXBreakpointsDataSource_IgnoreCountID,
+					PBXBreakpointsDataSource_ContinueID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					917,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					877,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 321917109;
+			PBXWorkspaceStateSaveDate = 321917109;
+		};
+		perUserProjectItems = {
+			A026296313233FEF0035ABD8 /* PBXTextBookmark */ = A026296313233FEF0035ABD8 /* PBXTextBookmark */;
+			A026296413233FEF0035ABD8 /* PBXTextBookmark */ = A026296413233FEF0035ABD8 /* PBXTextBookmark */;
+			A0262A4A1323724A0035ABD8 /* PBXTextBookmark */ = A0262A4A1323724A0035ABD8 /* PBXTextBookmark */;
+			A0262A4B1323724A0035ABD8 /* PBXTextBookmark */ = A0262A4B1323724A0035ABD8 /* PBXTextBookmark */;
+			A0262A4D1323724A0035ABD8 /* PBXTextBookmark */ = A0262A4D1323724A0035ABD8 /* PBXTextBookmark */;
+			A0262A521323724A0035ABD8 /* PBXTextBookmark */ = A0262A521323724A0035ABD8 /* PBXTextBookmark */;
+			A05045911330119C0063EC80 /* PBXTextBookmark */ = A05045911330119C0063EC80 /* PBXTextBookmark */;
+			A05045C7133019500063EC80 /* PBXTextBookmark */ = A05045C7133019500063EC80 /* PBXTextBookmark */;
+			A05045C8133019500063EC80 /* PBXTextBookmark */ = A05045C8133019500063EC80 /* PBXTextBookmark */;
+			A05045C9133019500063EC80 /* PBXTextBookmark */ = A05045C9133019500063EC80 /* PBXTextBookmark */;
+			A05045CA133019500063EC80 /* PBXTextBookmark */ = A05045CA133019500063EC80 /* PBXTextBookmark */;
+			A05045CB133019500063EC80 /* PBXTextBookmark */ = A05045CB133019500063EC80 /* PBXTextBookmark */;
+			A05045CC133019500063EC80 /* PBXTextBookmark */ = A05045CC133019500063EC80 /* PBXTextBookmark */;
+			A05045CD133019500063EC80 /* PBXTextBookmark */ = A05045CD133019500063EC80 /* PBXTextBookmark */;
+			A05045CE133019500063EC80 /* PBXTextBookmark */ = A05045CE133019500063EC80 /* PBXTextBookmark */;
+			A05045CF133019500063EC80 /* PBXTextBookmark */ = A05045CF133019500063EC80 /* PBXTextBookmark */;
+			A05045D0133019500063EC80 /* PBXTextBookmark */ = A05045D0133019500063EC80 /* PBXTextBookmark */;
+			A05045D1133019500063EC80 /* PlistBookmark */ = A05045D1133019500063EC80 /* PlistBookmark */;
+			A05045D2133019500063EC80 /* PBXTextBookmark */ = A05045D2133019500063EC80 /* PBXTextBookmark */;
+			A05045D3133019500063EC80 /* PBXTextBookmark */ = A05045D3133019500063EC80 /* PBXTextBookmark */;
+			A05045D4133019500063EC80 /* PBXTextBookmark */ = A05045D4133019500063EC80 /* PBXTextBookmark */;
+			A05045D5133019500063EC80 /* PBXTextBookmark */ = A05045D5133019500063EC80 /* PBXTextBookmark */;
+			A05045D6133019500063EC80 /* PBXTextBookmark */ = A05045D6133019500063EC80 /* PBXTextBookmark */;
+			A05045DA133019710063EC80 /* PBXTextBookmark */ = A05045DA133019710063EC80 /* PBXTextBookmark */;
+			A0655FA7132DB15800E44D2A /* PBXTextBookmark */ = A0655FA7132DB15800E44D2A /* PBXTextBookmark */;
+			A0655FA8132DB15800E44D2A /* PBXTextBookmark */ = A0655FA8132DB15800E44D2A /* PBXTextBookmark */;
+			A0655FA9132DB15800E44D2A /* PBXTextBookmark */ = A0655FA9132DB15800E44D2A /* PBXTextBookmark */;
+			A0655FC5132DB41A00E44D2A /* PBXTextBookmark */ = A0655FC5132DB41A00E44D2A /* PBXTextBookmark */;
+			A0E390BE1325865100AB2365 /* PBXTextBookmark */ = A0E390BE1325865100AB2365 /* PBXTextBookmark */;
+			A0E390BF1325865100AB2365 /* PBXTextBookmark */ = A0E390BF1325865100AB2365 /* PBXTextBookmark */;
+		};
+		sourceControlManager = A0280D0B131CA03E009E44C9 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	29B97316FDCFA39411CA2CEA /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1095, 473}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 356}";
+		};
+	};
+	504DFC6810AF1739006D82FE /* LICENSE.cocos2d */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {878, 420}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1189}";
+		};
+	};
+	504DFC6910AF1739006D82FE /* LICENSE.cocosdenshion */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {878, 420}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1106}";
+		};
+	};
+	506EDC2F102F528A00A389B3 /* ZombieWorldScene.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1095, 507}}";
+			sepNavSelRange = "{373, 0}";
+			sepNavVisRange = "{85, 567}";
+			sepNavWindowFrame = "{{278, 136}, {750, 558}}";
+		};
+	};
+	506EDC30102F528A00A389B3 /* ZombieWorldScene.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1153, 1456}}";
+			sepNavSelRange = "{655, 0}";
+			sepNavVisRange = "{1497, 1105}";
+			sepNavWindowFrame = "{{42, 0}, {1283, 746}}";
+		};
+	};
+	506EE05D10304ED200A389B3 /* cocos2d libraries */ = {
+		activeExec = 0;
+	};
+	A026294D13233C570035ABD8 /* TurnManager.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1224, 618}}";
+			sepNavSelRange = "{323, 0}";
+			sepNavVisRange = "{0, 554}";
+			sepNavWindowFrame = "{{19, 0}, {1283, 746}}";
+		};
+	};
+	A026294E13233C570035ABD8 /* TurnManager.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1301, 1404}}";
+			sepNavSelRange = "{1120, 0}";
+			sepNavVisRange = "{1081, 240}";
+			sepNavWindowFrame = "{{4, 0}, {1362, 746}}";
+		};
+	};
+	A026295413233DC90035ABD8 /* Board.m */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.objc;
+		name = Board.m;
+		path = /Users/victorjones/Documents/Project/iOS_Prj1/Classes/Board.m;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1095, 2288}}";
+			sepNavSelRange = "{2677, 0}";
+			sepNavVisRange = "{2570, 557}";
+		};
+	};
+	A026296313233FEF0035ABD8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 504DFC6810AF1739006D82FE /* LICENSE.cocos2d */;
+		name = "LICENSE.cocos2d: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1189;
+		vrLoc = 0;
+	};
+	A026296413233FEF0035ABD8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 504DFC6910AF1739006D82FE /* LICENSE.cocosdenshion */;
+		name = "LICENSE.cocosdenshion: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1106;
+		vrLoc = 0;
+	};
+	A0262A4A1323724A0035ABD8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 356;
+		vrLoc = 0;
+	};
+	A0262A4B1323724A0035ABD8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1F3B9A820EF2151B00286867 /* Zombies_Prefix.pch */;
+		name = "Zombies_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 177;
+		vrLoc = 0;
+	};
+	A0262A4D1323724A0035ABD8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1F3B9A2C0EF2145700286867 /* ZombiesAppDelegate.h */;
+		name = "ZombiesAppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 385;
+		vrLoc = 0;
+	};
+	A0262A521323724A0035ABD8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E0F80F5D120A0182005866B8 /* GameConfig.h */;
+		name = "GameConfig.h: 25";
+		rLen = 0;
+		rLoc = 520;
+		rType = 0;
+		vrLen = 548;
+		vrLoc = 0;
+	};
+	A0280CF0131CA025009E44C9 /* Zombies */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Zombies;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	A0280D0B131CA03E009E44C9 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	A0280D0C131CA03E009E44C9 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	A05045911330119C0063EC80 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E02BB7E7126CC224006E46A2 /* CCTouchDispatcher.m */;
+		name = "CCTouchDispatcher.m: 316";
+		rLen = 0;
+		rLoc = 9184;
+		rType = 0;
+		vrLen = 494;
+		vrLoc = 8932;
+	};
+	A05045B4133014040063EC80 /* TurnManager.m:73 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A026294E13233C570035ABD8 /* TurnManager.m */;
+		functionName = "-endCurrentTurn";
+		hitCount = 2;
+		ignoreCount = 0;
+		lineNumber = 73;
+		location = Zombies;
+		modificationTime = 321919321.439452;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	A05045C7133019500063EC80 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F8965C6313174DB500B14003 /* Actor_Zombie.h */;
+		name = "Actor_Zombie.h: 9";
+		rLen = 1;
+		rLoc = 177;
+		rType = 0;
+		vrLen = 456;
+		vrLoc = 0;
+	};
+	A05045C8133019500063EC80 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E0F80F5E120A0182005866B8 /* RootViewController.h */;
+		name = "RootViewController.h: 16";
+		rLen = 0;
+		rLoc = 235;
+		rType = 0;
+		vrLen = 236;
+		vrLoc = 0;
+	};
+	A05045C9133019500063EC80 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F8965C6413174DB500B14003 /* Actor_Zombie.m */;
+		name = "Actor_Zombie.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 589;
+		vrLoc = 3;
+	};
+	A05045CA133019500063EC80 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A026295413233DC90035ABD8 /* Board.m */;
+		name = "Board.m: 111";
+		rLen = 0;
+		rLoc = 2677;
+		rType = 0;
+		vrLen = 557;
+		vrLoc = 2570;
+	};
+	A05045CB133019500063EC80 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F8E0B93F131C557F005ECD4A /* TileSet.h */;
+		name = "TileSet.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 403;
+		vrLoc = 0;
+	};
+	A05045CC133019500063EC80 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F8E0B940131C557F005ECD4A /* TileSet.m */;
+		name = "TileSet.m: 14";
+		rLen = 2;
+		rLoc = 187;
+		rType = 0;
+		vrLen = 555;
+		vrLoc = 138;
+	};
+	A05045CD133019500063EC80 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F8965C681317549C00B14003 /* ZombieCollective.h */;
+		name = "ZombieCollective.h: 27";
+		rLen = 0;
+		rLoc = 496;
+		rType = 0;
+		vrLen = 640;
+		vrLoc = 26;
+	};
+	A05045CE133019500063EC80 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F8965C691317549C00B14003 /* ZombieCollective.m */;
+		name = "ZombieCollective.m: 117";
+		rLen = 0;
+		rLoc = 3536;
+		rType = 0;
+		vrLen = 814;
+		vrLoc = 2801;
+	};
+	A05045CF133019500063EC80 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 506EDC2F102F528A00A389B3 /* ZombieWorldScene.h */;
+		name = "ZombieWorldScene.h: 20";
+		rLen = 0;
+		rLoc = 373;
+		rType = 0;
+		vrLen = 567;
+		vrLoc = 85;
+	};
+	A05045D0133019500063EC80 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 506EDC30102F528A00A389B3 /* ZombieWorldScene.m */;
+		name = "ZombieWorldScene.m: 31";
+		rLen = 0;
+		rLoc = 655;
+		rType = 0;
+		vrLen = 1105;
+		vrLoc = 1497;
+	};
+	A05045D1133019500063EC80 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = F836B293131608AA0070C7C1 /* Base-1Screen.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			NumberOfPlayTiles,
+		);
+		name = "/Users/victorjones/Documents/Project/iOS_Prj1/Resources/Boards/Base-1Screen.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	A05045D2133019500063EC80 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F836B2201315FAE00070C7C1 /* Actor_Player.h */;
+		name = "Actor_Player.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 377;
+		vrLoc = 0;
+	};
+	A05045D3133019500063EC80 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F836B2211315FAE00070C7C1 /* Actor_Player.m */;
+		name = "Actor_Player.m: 20";
+		rLen = 0;
+		rLoc = 434;
+		rType = 0;
+		vrLen = 607;
+		vrLoc = 188;
+	};
+	A05045D4133019500063EC80 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F836B21D1315FAD40070C7C1 /* Actor.h */;
+		name = "Actor.h: 33";
+		rLen = 0;
+		rLoc = 671;
+		rType = 0;
+		vrLen = 507;
+		vrLoc = 171;
+	};
+	A05045D5133019500063EC80 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F836B21E1315FAD40070C7C1 /* Actor.m */;
+		name = "Actor.m: 33";
+		rLen = 0;
+		rLoc = 586;
+		rType = 0;
+		vrLen = 663;
+		vrLoc = 255;
+	};
+	A05045D6133019500063EC80 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A026294E13233C570035ABD8 /* TurnManager.m */;
+		rLen = 0;
+		rLoc = 72;
+		rType = 1;
+	};
+	A05045DA133019710063EC80 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A026294E13233C570035ABD8 /* TurnManager.m */;
+		name = "TurnManager.m: 73";
+		rLen = 0;
+		rLoc = 1146;
+		rType = 0;
+		vrLen = 456;
+		vrLoc = 926;
+	};
+	A0655FA7132DB15800E44D2A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F8965C6C13175A6900B14003 /* ZombieUtils.h */;
+		name = "ZombieUtils.h: 13";
+		rLen = 0;
+		rLoc = 215;
+		rType = 0;
+		vrLen = 281;
+		vrLoc = 0;
+	};
+	A0655FA8132DB15800E44D2A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F8965C6D13175A6900B14003 /* ZombieUtils.m */;
+		name = "ZombieUtils.m: 23";
+		rLen = 0;
+		rLoc = 639;
+		rType = 0;
+		vrLen = 676;
+		vrLoc = 0;
+	};
+	A0655FA9132DB15800E44D2A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F836B28C1316054F0070C7C1 /* Board.h */;
+		name = "Board.h: 10";
+		rLen = 0;
+		rLoc = 194;
+		rType = 0;
+		vrLen = 713;
+		vrLoc = 0;
+	};
+	A0655FC5132DB41A00E44D2A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A026294D13233C570035ABD8 /* TurnManager.h */;
+		name = "TurnManager.h: 26";
+		rLen = 0;
+		rLoc = 540;
+		rType = 0;
+		vrLen = 554;
+		vrLoc = 0;
+	};
+	A0E390BE1325865100AB2365 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E0F80F5F120A0182005866B8 /* RootViewController.m */;
+		name = "RootViewController.m: 132";
+		rLen = 23;
+		rLoc = 4032;
+		rType = 0;
+		vrLen = 1243;
+		vrLoc = 1491;
+	};
+	A0E390BF1325865100AB2365 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1F3B9A2B0EF2145700286867 /* ZombiesAppDelegate.m */;
+		name = "ZombiesAppDelegate.m: 56";
+		rLen = 0;
+		rLoc = 1592;
+		rType = 0;
+		vrLen = 832;
+		vrLoc = 3656;
+	};
+	E02BB7E7126CC224006E46A2 /* CCTouchDispatcher.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1301, 4173}}";
+			sepNavSelRange = "{9184, 0}";
+			sepNavVisRange = "{8932, 494}";
+		};
+	};
+	E0F80F5D120A0182005866B8 /* GameConfig.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1095, 473}}";
+			sepNavSelRange = "{520, 0}";
+			sepNavVisRange = "{0, 548}";
+		};
+	};
+	E0F80F5E120A0182005866B8 /* RootViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1095, 425}}";
+			sepNavSelRange = "{235, 0}";
+			sepNavVisRange = "{0, 236}";
+			sepNavWindowFrame = "{{19, 0}, {1283, 746}}";
+		};
+	};
+	E0F80F5F120A0182005866B8 /* RootViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1146, 1989}}";
+			sepNavSelRange = "{4032, 23}";
+			sepNavVisRange = "{1491, 1243}";
+			sepNavWindowFrame = "{{19, 0}, {1283, 746}}";
+		};
+	};
+	F836B21D1315FAD40070C7C1 /* Actor.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1095, 468}}";
+			sepNavSelRange = "{671, 0}";
+			sepNavVisRange = "{171, 507}";
+			sepNavWindowFrame = "{{19, 0}, {1283, 746}}";
+		};
+	};
+	F836B21E1315FAD40070C7C1 /* Actor.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1095, 1664}}";
+			sepNavSelRange = "{586, 0}";
+			sepNavVisRange = "{255, 663}";
+			sepNavWindowFrame = "{{19, 0}, {1283, 746}}";
+		};
+	};
+	F836B2201315FAE00070C7C1 /* Actor_Player.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1095, 343}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 377}";
+		};
+	};
+	F836B2211315FAE00070C7C1 /* Actor_Player.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1095, 1534}}";
+			sepNavSelRange = "{434, 0}";
+			sepNavVisRange = "{188, 607}";
+		};
+	};
+	F836B28C1316054F0070C7C1 /* Board.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1303, 624}}";
+			sepNavSelRange = "{876, 0}";
+			sepNavVisRange = "{0, 957}";
+			sepNavWindowFrame = "{{4, 0}, {1362, 746}}";
+		};
+	};
+	F836B28D1316054F0070C7C1 /* Board.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1224, 1846}}";
+			sepNavSelRange = "{1460, 0}";
+			sepNavVisRange = "{1044, 1165}";
+		};
+	};
+	F8965C6313174DB500B14003 /* Actor_Zombie.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1095, 425}}";
+			sepNavSelRange = "{177, 1}";
+			sepNavVisRange = "{0, 456}";
+			sepNavWindowFrame = "{{19, 0}, {1283, 746}}";
+		};
+	};
+	F8965C6413174DB500B14003 /* Actor_Zombie.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1095, 455}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{3, 589}";
+		};
+	};
+	F8965C681317549C00B14003 /* ZombieCollective.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1095, 455}}";
+			sepNavSelRange = "{496, 0}";
+			sepNavVisRange = "{26, 640}";
+			sepNavWindowFrame = "{{19, 0}, {1283, 746}}";
+		};
+	};
+	F8965C691317549C00B14003 /* ZombieCollective.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1095, 1586}}";
+			sepNavSelRange = "{3536, 0}";
+			sepNavVisRange = "{2801, 814}";
+			sepNavWindowFrame = "{{19, 0}, {1283, 746}}";
+		};
+	};
+	F8965C6C13175A6900B14003 /* ZombieUtils.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1095, 453}}";
+			sepNavSelRange = "{215, 0}";
+			sepNavVisRange = "{0, 281}";
+		};
+	};
+	F8965C6D13175A6900B14003 /* ZombieUtils.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1095, 453}}";
+			sepNavSelRange = "{639, 0}";
+			sepNavVisRange = "{0, 676}";
+		};
+	};
+	F8E0B93F131C557F005ECD4A /* TileSet.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1095, 425}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 403}";
+		};
+	};
+	F8E0B940131C557F005ECD4A /* TileSet.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1095, 793}}";
+			sepNavSelRange = "{187, 2}";
+			sepNavVisRange = "{138, 555}";
+		};
+	};
+}
