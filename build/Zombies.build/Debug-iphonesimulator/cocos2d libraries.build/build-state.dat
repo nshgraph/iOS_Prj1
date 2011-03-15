@@ -1,7 +1,7 @@
 Tcocos2d libraries
 v7
 r0
-t320628553.386951
+t321170667.127833
 cCheck dependencies
 cCompileC "build/Zombies.build/Debug-iphonesimulator/cocos2d libraries.build/Objects-normal/i386/FontLabel.o" /Users/nathanholmberg/Projects/iPhone/Zombies/libs/FontLabel/FontLabel.m normal i386 objective-c com.apple.compilers.llvmgcc42
 cCompileC "build/Zombies.build/Debug-iphonesimulator/cocos2d libraries.build/Objects-normal/i386/FontLabelStringDrawing.o" /Users/nathanholmberg/Projects/iPhone/Zombies/libs/FontLabel/FontLabelStringDrawing.m normal i386 objective-c com.apple.compilers.llvmgcc42
@@ -2552,7 +2552,7 @@ i<UIKit/UIKit.h>
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies320628553#320628553#0(0"0(0#1#0"8621777472#0"0#
+lSLF07#2@18"Check dependencies321170667#321170667#0(0"0(0#1#0"8631722272#0"0#
 
 CCompileC "build/Zombies.build/Debug-iphonesimulator/cocos2d libraries.build/Objects-normal/i386/CCAction.o" /Users/nathanholmberg/Projects/iPhone/Zombies/libs/cocos2d/CCAction.m normal i386 objective-c com.apple.compilers.llvmgcc42
 s320206629.227532

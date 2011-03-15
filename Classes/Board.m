@@ -23,7 +23,8 @@
 	if( self )
 	{
 		mSprite = [[CCSprite spriteWithFile:[resource stringByAppendingString: @".png"] rect: CGRectMake(0,0,size.x,size.y)] retain];
-		mSprite.position = ccp(size.x/2,size.y/2);
+		mSprite.contentSize = mSprite.textureRect.size;
+		mSprite.position = ccp(mSprite.contentSize.width/2,mSprite.contentSize.height/2);
 		
 		NSString *path = [CCFileUtils fullPathFromRelativePath:[resource stringByAppendingString: @".plist"]];
 		NSDictionary *dict = [NSDictionary dictionaryWithContentsOfFile:path];
@@ -72,8 +73,8 @@
 	if( location.y >= mDimensions.height )
 		location.y = mDimensions.height - 1;
 	
-	return CGPointMake( mOffsetToFirstTile.x + mSizeOfPlayTile.width*location.x, 
-					   mOffsetToFirstTile.y + mSizeOfPlayTile.height*location.y );
+	return CGPointMake( mOffsetToFirstTile.x + mSizeOfPlayTile.width*location.x - 5, 
+					   mOffsetToFirstTile.y + mSizeOfPlayTile.height*location.y - 10 );
 }
 
 -(int)orientationTowardsCenterForTile: (CGPoint) tile
