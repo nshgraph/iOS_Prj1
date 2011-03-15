@@ -7,15 +7,15 @@
 //
 
 #import "Board.h"
-
+#import "TurnManager.h"
 #import "Actor.h"
 #import "TileSet.h"
-
 #import "ZombieUtils.h"
 
 @implementation Board
 
 @synthesize tileSize = mSizeOfPlayTile;
+
 
 -(id)initWithSize:(CGPoint)size andResource:(NSString*) resource
 {
@@ -24,6 +24,7 @@
 	{
 		mSprite = [[CCSprite spriteWithFile:[resource stringByAppendingString: @".png"] rect: CGRectMake(0,0,size.x,size.y)] retain];
 		mSprite.position = ccp(size.x/2,size.y/2);
+		mTurnManager = [[TurnManager alloc] initTurnManager];
 		
 		NSString *path = [CCFileUtils fullPathFromRelativePath:[resource stringByAppendingString: @".plist"]];
 		NSDictionary *dict = [NSDictionary dictionaryWithContentsOfFile:path];
@@ -57,6 +58,7 @@
 {
 	[mSprite release];
 	[mTileSet release];
+	[mTurnManager release];
 	[mTileSetLock release];
 	[super dealloc];
 }
@@ -110,6 +112,8 @@
 {
 	[mSprite addChild: actor.node];
 	
+	[mTurnManager addActorToManager:actor];
+	
 	[mTileSetLock lock];
 	
 	[mTileSet obtainTile: actor.position];
@@ -122,6 +126,8 @@
 {
 	[mSprite removeChild: actor.node cleanup:YES];
 	
+	[mTurnManager removeActorFromManager: actor];
+	
 	[mTileSetLock lock];
 	
 	[mTileSet freeTile: actor.position];
@@ -129,8 +135,19 @@
 	[mTileSetLock unlock];
 }
 
+-(BOOL) canMovePlayer:(Actor*) actor
+{
+	BOOL result = NO;
+	if ([mTurnManager canMovePlayer: actor]){
+		result = YES;
+	} 
+	
+	return result;
+}
+
 -(BOOL) requestActorMoveFrom:(CGPoint) from_point to:(CGPoint) to_point
 {
+	
 	BOOL result = NO;
 	
 	[mTileSetLock lock];

@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "TurnManager.h"
 #import "cocos2d.h"
 
 @class Actor;
@@ -15,7 +15,7 @@
 
 @interface Board : NSObject {
 	CCSprite* mSprite;
-	
+	TurnManager* mTurnManager;
 	CGSize mDimensions;
 	CGSize mSizeOfPlayTile;
 	CGPoint mOffsetToFirstTile;
@@ -39,6 +39,8 @@
 -(void) addActorToBoard:(Actor*) actor;
 
 -(void) removeActorFromBoard:(Actor*) actor;
+
+-(BOOL) canMovePlayer:(Actor*) actor;
 
 -(BOOL) requestActorMoveFrom:(CGPoint) from_point to:(CGPoint) to_point;
 
