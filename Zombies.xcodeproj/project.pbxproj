@@ -65,6 +65,8 @@
 		50F414F01069373D002A0D5E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 50F414EC1069373D002A0D5E /* Default.png */; };
 		50F414F11069373D002A0D5E /* fps_images.png in Resources */ = {isa = PBXBuildFile; fileRef = 50F414ED1069373D002A0D5E /* fps_images.png */; };
 		50F414F21069373D002A0D5E /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 50F414EE1069373D002A0D5E /* Icon.png */; };
+		A026294F13233C570035ABD8 /* TurnManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A026294D13233C570035ABD8 /* TurnManager.h */; };
+		A026295113233C570035ABD8 /* TurnManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A026294E13233C570035ABD8 /* TurnManager.m */; };
 		DC6640030F83B3EA000B3E49 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC6640020F83B3EA000B3E49 /* AudioToolbox.framework */; };
 		DC6640050F83B3EA000B3E49 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC6640040F83B3EA000B3E49 /* OpenAL.framework */; };
 		DCCBF1B70F6022AE0040855A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCCBF1B60F6022AE0040855A /* CoreGraphics.framework */; };
@@ -330,6 +332,8 @@
 		50F414ED1069373D002A0D5E /* fps_images.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fps_images.png; sourceTree = "<group>"; };
 		50F414EE1069373D002A0D5E /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		50F414EF1069373D002A0D5E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A026294D13233C570035ABD8 /* TurnManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TurnManager.h; sourceTree = "<group>"; };
+		A026294E13233C570035ABD8 /* TurnManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TurnManager.m; sourceTree = "<group>"; };
 		DC6640020F83B3EA000B3E49 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		DC6640040F83B3EA000B3E49 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
 		DCCBF1B60F6022AE0040855A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -622,6 +626,7 @@
 		2D500B1D0D5A766B00DBA0E3 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				A026294413233BF80035ABD8 /* TurnManager */,
 				F8965C6F13175A7000B14003 /* Utilities */,
 				F8965C671317548900B14003 /* ZombieCollective */,
 				F836B28B131605450070C7C1 /* Boards */,
@@ -756,6 +761,15 @@
 				50F414EF1069373D002A0D5E /* Info.plist */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		A026294413233BF80035ABD8 /* TurnManager */ = {
+			isa = PBXGroup;
+			children = (
+				A026294D13233C570035ABD8 /* TurnManager.h */,
+				A026294E13233C570035ABD8 /* TurnManager.m */,
+			);
+			name = TurnManager;
 			sourceTree = "<group>";
 		};
 		E02BB764126CC223006E46A2 /* cocos2d */ = {
@@ -1145,6 +1159,7 @@
 				E02BB8B1126CC224006E46A2 /* uthash.h in Headers */,
 				E02BB8B2126CC224006E46A2 /* utlist.h in Headers */,
 				E02BB8B3126CC224006E46A2 /* ZipUtils.h in Headers */,
+				A026294F13233C570035ABD8 /* TurnManager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1253,6 +1268,7 @@
 				F8965C6A1317549C00B14003 /* ZombieCollective.m in Sources */,
 				F8965C6E13175A6900B14003 /* ZombieUtils.m in Sources */,
 				F8E0B941131C557F005ECD4A /* TileSet.m in Sources */,
+				A026295113233C570035ABD8 /* TurnManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
