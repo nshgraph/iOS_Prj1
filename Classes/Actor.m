@@ -40,8 +40,6 @@ BOOL mbIsMoving;
 		mSprite.scale = mBoard.tileSize.width / mSprite.textureRect.size.width;
 		
 		[mBoard addActorToBoard: self];
-		
-		return self;
 	}
 	return self;
 }
@@ -76,9 +74,15 @@ BOOL mbIsMoving;
 	if( mbIsMoving )
 		return;
 	
+	if (![mBoard canMovePlayer:self])
+		return;
+	
 	// can't move if the board says I can't!
 	if( ![mBoard requestActorMoveFrom: mPosition to: tile] )
 		return;
+	
+	
+	
 	
 	mbIsMoving = true;
 	

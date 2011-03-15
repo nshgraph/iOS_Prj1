@@ -23,8 +23,13 @@
 	if( self )
 	{
 		mSprite = [[CCSprite spriteWithFile:[resource stringByAppendingString: @".png"] rect: CGRectMake(0,0,size.x,size.y)] retain];
+<<<<<<< HEAD
+		mSprite.contentSize = mSprite.textureRect.size;
+		mSprite.position = ccp(mSprite.contentSize.width/2,mSprite.contentSize.height/2);
+=======
 		mSprite.position = ccp(size.x/2,size.y/2);
 		mTurnManager = [[TurnManager alloc] initTurnManager];
+>>>>>>> fcbabcdc7e25f218862f2e4e647f299a67f4b180
 		
 		NSString *path = [CCFileUtils fullPathFromRelativePath:[resource stringByAppendingString: @".plist"]];
 		NSDictionary *dict = [NSDictionary dictionaryWithContentsOfFile:path];

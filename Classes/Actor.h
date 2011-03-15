@@ -16,11 +16,10 @@
 	CGPoint mPosition;
 	CGSize mSize;
 	CCSprite* mSprite;
-	
 	int mOrientation;
-	
 	Board* mBoard;
 }
+
 @property(nonatomic,readwrite) int orientation;
 @property(nonatomic,readonly) CGPoint position;
 @property(nonatomic,readonly) CCNode* node;
