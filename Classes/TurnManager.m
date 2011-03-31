@@ -78,6 +78,9 @@
 		turnCounter = turnCounter+1;
 		APCounter = 4;
 	}
+	Actor* temp = (Actor*)[players objectAtIndex: turnCounter];
+	if (temp.isPlayer == NO)
+		[self endCurrentTurn];
 }
 
 -(BOOL) canMovePlayer:(Actor*) actor

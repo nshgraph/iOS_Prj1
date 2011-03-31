@@ -20,7 +20,9 @@
 	self = [super initOnTile:tile onBoard:board andResource:resource];
 	if( self )
 	{
+		self.isPlayer = NO;
 		self.orientation = [board orientationTowardsCenterForTile: tile];
+		
 	}
 	
 	return self;
