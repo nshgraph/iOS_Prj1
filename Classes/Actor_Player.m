@@ -14,9 +14,9 @@
 
 @implementation Actor_Player
 
--(id)initOnTile:(CGPoint) tile onBoard:(Board*) board andResource: (NSString*) resource
+-(id)initOnTile:(CGPoint) tile onBoard:(Board*) board andResource: (NSString*) resource isAPlayer: (BOOL) isAPlayer
 {
-	self = [super initOnTile: tile onBoard: board andResource: (NSString*) resource];
+	self = [super initOnTile: tile onBoard: board andResource: (NSString*) resource isAPlayer: isAPlayer];
 	if( self )
 	{
 		[[CCTouchDispatcher sharedDispatcher] addTargetedDelegate:self priority:0 swallowsTouches:YES];

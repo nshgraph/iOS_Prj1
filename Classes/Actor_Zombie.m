@@ -15,12 +15,12 @@
 
 @synthesize apPerTurn = mAPPerTurn;
 
--(id)initOnTile:(CGPoint) tile onBoard:(Board*) board andResource: (NSString*) resource
+-(id)initOnTile:(CGPoint) tile onBoard:(Board*) board andResource: (NSString*) resource isAPlayer: (BOOL) isAPlayer
 {
-	self = [super initOnTile:tile onBoard:board andResource:resource];
+	self = [super initOnTile:tile onBoard:board andResource:resource isAPlayer: isAPlayer];
 	if( self )
 	{
-		self.isPlayer = NO;
+		
 		self.orientation = [board orientationTowardsCenterForTile: tile];
 		
 	}
