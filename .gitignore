@@ -1,14 +1,17 @@
+
 .DS_Store
 *.swp
 *~.nib
 
+*.o
+*.lo
+
+.libs/
+
 build/
 
 *.pbxuser
-*.perspective
-*.perspectivev3
-
-*.mode1v3
 *.mode2v3
-
-xcuserdata
+*.mode1v3
+*.perspectivev*
+!*.xcodeproj/project.pbxproj
