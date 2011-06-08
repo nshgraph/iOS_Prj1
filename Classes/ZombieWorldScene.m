@@ -81,7 +81,7 @@
 		for( int i=0; i < num_players; i++ )
 		{
 			CGPoint spawn_point = [[mPlayerSpawnPoints objectAtIndex: i] CGPointValue];
-			Actor* actor = [[[Actor_Player alloc] initOnTile: spawn_point onBoard: mBoard andResource: [NSString stringWithFormat:@"Player%i",(i+1)]] autorelease];
+			Actor* actor = [[[Actor_Player alloc] initOnTile: spawn_point onBoard: mBoard andResource: [NSString stringWithFormat:@"Player%i",(i+1)] isAPlayer: YES] autorelease];
 			[mPlayers addObject: actor];
 		}
 		

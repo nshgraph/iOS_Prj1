@@ -19,10 +19,11 @@
 BOOL mbIsMoving;
 
 @synthesize orientation = mOrientation;
+@synthesize isPlayer = mIsPlayer;
 @synthesize position = mPosition;
 @synthesize node = mSprite;
 
--(id)initOnTile:(CGPoint) tile onBoard:(Board*) board andResource: (NSString*) resource
+-(id)initOnTile:(CGPoint) tile onBoard:(Board*) board andResource: (NSString*) resource isAPlayer: (BOOL) isPlayable
 {
 	self = [super init];
 	if( self )
@@ -31,9 +32,8 @@ BOOL mbIsMoving;
 		mBoard = board;
 		[mBoard retain];
 		mSize = board.tileSize;
-		
 		mOrientation = 0;
-		
+		mIsPlayer = isPlayable;
 		mbIsMoving = false;
 		mSprite = [[CCSprite spriteWithFile:[resource stringByAppendingString: @".png"]] retain];
 		mSprite.position = [mBoard getPositionOfSquareAt: mPosition];
@@ -67,6 +67,7 @@ BOOL mbIsMoving;
 	if ( mSprite )
 		mSprite.position = [mBoard getPositionOfSquareAt:tile];
 }
+
 
 -(void) moveToTile:(CGPoint) tile
 {

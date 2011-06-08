@@ -18,13 +18,16 @@
 	CCSprite* mSprite;
 	int mOrientation;
 	Board* mBoard;
+	BOOL mIsPlayer;
 }
 
 @property(nonatomic,readwrite) int orientation;
+@property(nonatomic,readwrite) BOOL isPlayer;
 @property(nonatomic,readonly) CGPoint position;
 @property(nonatomic,readonly) CCNode* node;
 
--(id)initOnTile:(CGPoint) tile onBoard:(Board*) board andResource: (NSString*) resource;
+
+-(id)initOnTile:(CGPoint) tile onBoard:(Board*) board andResource: (NSString*) resource isAPlayer: (BOOL) isPlayable;
 
 -(void) relocateToTile:(CGPoint) tile;
 

@@ -85,7 +85,8 @@
 		if( [mBoard isTileFree: spawn_point] )
 		{
 			// add if it is create a zombie there
-			Actor_Zombie* actor = [[[Actor_Zombie alloc] initOnTile: spawn_point onBoard: mBoard andResource: mZombieName] autorelease];
+			Actor_Zombie* actor = [[[Actor_Zombie alloc] initOnTile: spawn_point onBoard: mBoard andResource: mZombieName isAPlayer: NO] autorelease];
+			actor.isPlayer = NO;
 			actor.apPerTurn = mNumAPPointsPerZombie;
 			[mZombies addObject:actor];
 			//(and decrement number)

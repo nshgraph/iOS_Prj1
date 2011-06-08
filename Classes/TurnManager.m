@@ -44,7 +44,9 @@
 // Adds an actor object to our players array.
 -(void) addActorToManager:(Actor*) actor
 {
-	[players addObject: actor];
+	if (actor.isPlayer == YES){
+		[players addObject: actor];
+	}
 }
 
 // Removes an object to our players array.
@@ -72,6 +74,7 @@
 {
 	if ([[players objectAtIndex: turnCounter] isEqual: [players lastObject]])
 	{
+		// Call zombieCollective to Start Turn.
 		turnCounter = 0;
 		APCounter = 4;
 	} else {
