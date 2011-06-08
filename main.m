@@ -9,7 +9,7 @@
 
 #import <UIKit/UIKit.h>
 
-int main(int argc, char *argv[]) {
+int main(int argc, char *argv[]) { // blah
 	NSAutoreleasePool *pool = [NSAutoreleasePool new];
 	int retVal = UIApplicationMain(argc, argv, nil, @"ZombiesAppDelegate");
 	[pool release];
