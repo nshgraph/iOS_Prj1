@@ -119,4 +119,10 @@
 	
 }
 
+// Temporary "Move Zombies" method. Wee Wee Wee! ∑:8)
+-(void) moveZombies
+{
+	
+}
+
 @end

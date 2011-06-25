@@ -31,4 +31,6 @@
 
 -(void) spawnNewTurnZombiesForPlayers:(int) num_players;
 
+-(void) moveZombies;
+
 @end

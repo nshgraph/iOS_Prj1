@@ -88,11 +88,10 @@
 	BOOL result = NO;
 	if ([self isPlayersTurn: actor] && APCounter > 0)
 	{
-			APCounter = APCounter - 1;
-		    if (APCounter == 0)
-				[self endCurrentTurn];
-			return YES;
+		[self decrementAP];
+		return YES;
 	}
+	
 	if (APCounter == 0)
 		[self endCurrentTurn];
 	return result;

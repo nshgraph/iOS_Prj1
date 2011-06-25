@@ -67,6 +67,7 @@
 		50F414F21069373D002A0D5E /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 50F414EE1069373D002A0D5E /* Icon.png */; };
 		A026294F13233C570035ABD8 /* TurnManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A026294D13233C570035ABD8 /* TurnManager.h */; };
 		A026295113233C570035ABD8 /* TurnManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A026294E13233C570035ABD8 /* TurnManager.m */; };
+		A0F4E1CE134BAE5F00530A34 /* ZombieMover.m in Sources */ = {isa = PBXBuildFile; fileRef = A0F4E1CB134BAE5F00530A34 /* ZombieMover.m */; };
 		DC6640030F83B3EA000B3E49 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC6640020F83B3EA000B3E49 /* AudioToolbox.framework */; };
 		DC6640050F83B3EA000B3E49 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC6640040F83B3EA000B3E49 /* OpenAL.framework */; };
 		DCCBF1B70F6022AE0040855A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCCBF1B60F6022AE0040855A /* CoreGraphics.framework */; };
@@ -334,6 +335,8 @@
 		50F414EF1069373D002A0D5E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A026294D13233C570035ABD8 /* TurnManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TurnManager.h; sourceTree = "<group>"; };
 		A026294E13233C570035ABD8 /* TurnManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TurnManager.m; sourceTree = "<group>"; };
+		A0F4E1CA134BAE5F00530A34 /* ZombieMover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZombieMover.h; sourceTree = "<group>"; };
+		A0F4E1CB134BAE5F00530A34 /* ZombieMover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZombieMover.m; sourceTree = "<group>"; };
 		DC6640020F83B3EA000B3E49 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		DC6640040F83B3EA000B3E49 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
 		DCCBF1B60F6022AE0040855A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -626,6 +629,7 @@
 		2D500B1D0D5A766B00DBA0E3 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				A0F4E1C9134BAE1F00530A34 /* ZombieMover */,
 				A026294413233BF80035ABD8 /* TurnManager */,
 				F8965C6F13175A7000B14003 /* Utilities */,
 				F8965C671317548900B14003 /* ZombieCollective */,
@@ -770,6 +774,15 @@
 				A026294E13233C570035ABD8 /* TurnManager.m */,
 			);
 			name = TurnManager;
+			sourceTree = "<group>";
+		};
+		A0F4E1C9134BAE1F00530A34 /* ZombieMover */ = {
+			isa = PBXGroup;
+			children = (
+				A0F4E1CA134BAE5F00530A34 /* ZombieMover.h */,
+				A0F4E1CB134BAE5F00530A34 /* ZombieMover.m */,
+			);
+			name = ZombieMover;
 			sourceTree = "<group>";
 		};
 		E02BB764126CC223006E46A2 /* cocos2d */ = {
@@ -1269,6 +1282,7 @@
 				F8965C6E13175A6900B14003 /* ZombieUtils.m in Sources */,
 				F8E0B941131C557F005ECD4A /* TileSet.m in Sources */,
 				A026295113233C570035ABD8 /* TurnManager.m in Sources */,
+				A0F4E1CE134BAE5F00530A34 /* ZombieMover.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1407,6 +1421,7 @@
 				);
 				PREBINDING = NO;
 				PRODUCT_NAME = Zombies;
+				TARGETED_DEVICE_FAMILY = 1;
 				WARNING_CFLAGS = "-Wall";
 			};
 			name = Debug;
@@ -1429,6 +1444,7 @@
 				);
 				PREBINDING = NO;
 				PRODUCT_NAME = Zombies;
+				TARGETED_DEVICE_FAMILY = 1;
 				WARNING_CFLAGS = "-Wall";
 			};
 			name = Release;
